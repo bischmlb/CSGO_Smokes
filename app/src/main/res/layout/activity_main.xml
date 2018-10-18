@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/csgo"
+    android:theme="@style/Theme.AppCompat.NoActionBar"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_mirage"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/mirage"
+        android:text="@string/mirage"
+        android:textAppearance="@android:style/TextAppearance.Holo.Widget.ActionBar.Menu"
+        app:layout_constraintBottom_toTopOf="@+id/btn_cache"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_dust2" />
+
+    <Button
+        android:id="@+id/btn_cache"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/cache"
+        android:text="@string/cache"
+        android:textAppearance="@android:style/TextAppearance.Holo.Widget.ActionBar.Menu"
+        app:layout_constraintBottom_toTopOf="@+id/btn_overpass"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_mirage" />
+
+    <Button
+        android:id="@+id/btn_overpass"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/overpass"
+        android:text="@string/overpass"
+        android:textAppearance="@android:style/TextAppearance.Holo.Widget.ActionBar.Menu"
+        app:layout_constraintBottom_toTopOf="@+id/btn_train"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_cache" />
+
+    <Button
+        android:id="@+id/btn_train"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/train"
+        android:text="@string/train"
+        android:textAppearance="@android:style/TextAppearance.Holo.Widget.ActionBar.Menu"
+        app:layout_constraintBottom_toTopOf="@+id/btn_nuke"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_overpass" />
+
+    <Button
+        android:id="@+id/btn_nuke"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/nuke"
+        android:text="@string/nuke"
+        android:textAppearance="@android:style/TextAppearance.Holo.Widget.ActionBar.Menu"
+        app:layout_constraintBottom_toTopOf="@id/btn_inferno"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_train" />
+
+    <Button
+        android:id="@+id/btn_dust2"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/dust2"
+        android:text="@string/dust2"
+        android:textAppearance="@android:style/TextAppearance.Holo.Widget.ActionBar.Menu"
+        app:layout_constraintBottom_toTopOf="@id/btn_mirage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_inferno"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/inferno"
+        android:text="@string/inferno"
+        android:textAppearance="@android:style/TextAppearance.Holo.Widget.ActionBar.Menu"
+        app:layout_constraintBottom_toTopOf="@id/btn_cbble"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_nuke" />
+
+    <Button
+        android:id="@+id/btn_cbble"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/cbble"
+        android:text="@string/cbble"
+        android:textAppearance="@android:style/TextAppearance.Holo.Widget.ActionBar.Menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_inferno" />
+
+
+</android.support.constraint.ConstraintLayout>
