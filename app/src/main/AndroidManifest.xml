@@ -23,10 +23,11 @@
             android:label="@string/title_activity_mirage" />
         <activity
             android:name=".dust2"
-            android:label="@string/dust2"/>
+            android:label="@string/dust2" />
         <activity
             android:name=".cache"
-            android:label="@string/cache"/>
+            android:label="@string/cache" />
+        <activity android:name=".mirage_sitea_act"></activity>
     </application>
 
 </manifest>

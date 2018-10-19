@@ -10,7 +10,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 import android.widget.TextView;
 
-public class mirage extends AppCompatActivity implements SiteA.OnFragmentInteractionListener, SiteB.OnFragmentInteractionListener, Mid.OnFragmentInteractionListener{
+public class mirage extends AppCompatActivity implements mirage_siteA.OnFragmentInteractionListener, mirage_siteB.OnFragmentInteractionListener, Mid.OnFragmentInteractionListener{
 
     private TextView mTextMessage;
 
@@ -43,9 +43,9 @@ public class mirage extends AppCompatActivity implements SiteA.OnFragmentInterac
         BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation_Maps);
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tablayout);
-        tabLayout.addTab(tabLayout.newTab().setText("A-site"));
-        tabLayout.addTab(tabLayout.newTab().setText("MID"));
-        tabLayout.addTab(tabLayout.newTab().setText("B-site"));
+        tabLayout.addTab(tabLayout.newTab().setText("A"));
+        tabLayout.addTab(tabLayout.newTab().setText("Mid"));
+        tabLayout.addTab(tabLayout.newTab().setText("B"));
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 
         final ViewPager viewPager = (ViewPager)findViewById(R.id.pager);

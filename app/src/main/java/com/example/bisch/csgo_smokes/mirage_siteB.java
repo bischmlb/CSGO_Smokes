@@ -12,12 +12,12 @@ import android.view.ViewGroup;
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link SiteB.OnFragmentInteractionListener} interface
+ * {@link mirage_siteB.OnFragmentInteractionListener} interface
  * to handle interaction events.
- * Use the {@link SiteB#newInstance} factory method to
+ * Use the {@link mirage_siteB#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class SiteB extends Fragment {
+public class mirage_siteB extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -29,7 +29,7 @@ public class SiteB extends Fragment {
 
     private OnFragmentInteractionListener mListener;
 
-    public SiteB() {
+    public mirage_siteB() {
         // Required empty public constructor
     }
 
@@ -39,11 +39,11 @@ public class SiteB extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment SiteB.
+     * @return A new instance of fragment mirage_siteB.
      */
     // TODO: Rename and change types and number of parameters
-    public static SiteB newInstance(String param1, String param2) {
-        SiteB fragment = new SiteB();
+    public static mirage_siteB newInstance(String param1, String param2) {
+        mirage_siteB fragment = new mirage_siteB();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);

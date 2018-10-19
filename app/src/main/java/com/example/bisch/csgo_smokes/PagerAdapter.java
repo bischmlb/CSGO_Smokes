@@ -1,14 +1,8 @@
 package com.example.bisch.csgo_smokes;
 
-import android.app.ActionBar;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.app.FragmentStatePagerAdapter;
-
-import com.example.bisch.csgo_smokes.Mid;
-import com.example.bisch.csgo_smokes.SiteA;
-import com.example.bisch.csgo_smokes.SiteB;
 
 public class PagerAdapter extends FragmentStatePagerAdapter {
 
@@ -26,13 +20,13 @@ public class PagerAdapter extends FragmentStatePagerAdapter {
     public Fragment getItem(int position) {
         switch (position) {
             case 0:
-                SiteA A = new SiteA();
+                mirage_siteA A = new mirage_siteA();
                 return A;
             case 1:
                 Mid mid = new Mid();
                 return mid;
             case 2:
-                SiteB B = new SiteB();
+                mirage_siteB B = new mirage_siteB();
                 return B;
             default:
                 return null;
