@@ -33,7 +33,11 @@
         <activity android:name=".mirage_mid_cat" />
         <activity android:name=".mirage_mid_window_t_spawn" />
         <activity android:name=".mirage_mid_window_b_apps" />
-        <activity android:name=".mirage_mid_connector_b_apps"></activity>
+        <activity android:name=".mirage_mid_connector_b_apps" />
+        <activity android:name=".mirage_siteb_bench" />
+        <activity android:name=".mirage_siteb_under_balc" />
+        <activity android:name=".mirage_siteb_market_window" />
+        <activity android:name=".mirage_siteb_short_cat"></activity>
     </application>
 
 </manifest>

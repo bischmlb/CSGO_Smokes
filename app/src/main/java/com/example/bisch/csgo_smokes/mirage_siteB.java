@@ -1,12 +1,14 @@
 package com.example.bisch.csgo_smokes;
 
 import android.content.Context;
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 
 /**
@@ -64,7 +66,42 @@ public class mirage_siteB extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_mirage_siteb, container, false);
+        View view = inflater.inflate(R.layout.fragment_mirage_siteb, container, false);
+
+        final Button bench = (Button) view.findViewById(R.id.btn_bench);
+        bench.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(), mirage_siteb_bench.class));
+            }
+        });
+
+        final Button market_window = (Button) view.findViewById(R.id.btn_market_window);
+        market_window.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(), mirage_siteb_market_window.class));
+            }
+        });
+
+        final Button under_balc = (Button) view.findViewById(R.id.btn_under_balc);
+        under_balc.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(), mirage_siteb_under_balc.class));
+            }
+        });
+
+        final Button short_cat = (Button) view.findViewById(R.id.btn_short_cat);
+        short_cat.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(), mirage_siteb_short_cat.class));
+            }
+        });
+
+
+        return view;
     }
 
     // TODO: Rename method, update argument and hook method into UI event

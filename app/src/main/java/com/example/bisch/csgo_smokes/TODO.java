@@ -12,7 +12,7 @@ public class TODO {
 
 
     /* TODO: Frontpage:
-    TODO: Button wrap content or fixed length?
+    DONE: Button wrap content or fixed length?
     TODO: Find better background imaga
     TODO: SNAVS Highlights activity?
 
@@ -23,7 +23,7 @@ public class TODO {
     TODO: Make videos for all featured smokes -
         (DONE) MID
         (DONE) A
-        (TODO) B
+        (DONE) B
     TODO: Determine and enhance layout on video activities
     TODO: Find new design for slider bar
     TODO: Find background for mirage themed activities (maybe mirage loading screen)
