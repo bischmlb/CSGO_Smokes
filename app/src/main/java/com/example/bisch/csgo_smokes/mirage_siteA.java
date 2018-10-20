@@ -66,17 +66,33 @@ public class mirage_siteA extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view = inflater.inflate(R.layout.fragment_site, container, false);
+        View view = inflater.inflate(R.layout.fragment_mirage_sitea, container, false);
 
         //Button
         final Button stairs = (Button) view.findViewById(R.id.btn_stairs);
         stairs.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getActivity(), mirage_sitea_act.class));
+                startActivity(new Intent(getActivity(), mirage_sitea_stairs.class));
             }
 
         });
+
+        final Button con_jun = (Button) view.findViewById(R.id.btn_con_jun);
+        con_jun.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(), mirage_sitea_con_jun.class));
+            }
+        });
+
+        final Button ct = (Button) view.findViewById(R.id.btn_ct_spawn);
+        ct.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(), mirage_sitea_ct.class));
+            }
+        });
+
         return view;
     }
 

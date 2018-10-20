@@ -27,7 +27,9 @@
         <activity
             android:name=".cache"
             android:label="@string/cache" />
-        <activity android:name=".mirage_sitea_act"></activity>
+        <activity android:name=".mirage_sitea_stairs" />
+        <activity android:name=".mirage_sitea_con_jun" />
+        <activity android:name=".mirage_sitea_ct"></activity>
     </application>
 
 </manifest>
