@@ -23,7 +23,8 @@
         app:layout_constraintBottom_toTopOf="@+id/btn_cache"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_dust2" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_dust2"
+        tools:text="-MIRAGE-" />
 
     <Button
         android:id="@+id/btn_cache"
@@ -40,94 +41,104 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_mirage" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_mirage"
+        tools:text="-CACHE-" />
 
     <Button
         android:id="@+id/btn_overpass"
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="75dp"
         android:background="@drawable/overpass"
-        android:alpha="0."
         android:text="@string/overpass"
         android:textAppearance="@android:style/TextAppearance.Holo.Widget.ActionBar.Menu"
-        android:visibility="invisible"
+        android:textSize="40dp"
+        android:textStyle="italic|bold"
         app:layout_constraintBottom_toTopOf="@+id/btn_train"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_cache" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_cache"
+        tools:text="-OVERPASS-" />
 
     <Button
         android:id="@+id/btn_train"
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="75dp"
         android:background="@drawable/train"
         android:text="@string/train"
         android:textAppearance="@android:style/TextAppearance.Holo.Widget.ActionBar.Menu"
-        android:visibility="invisible"
+        android:textSize="40dp"
+        android:textStyle="italic|bold"
         app:layout_constraintBottom_toTopOf="@+id/btn_nuke"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_overpass" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_overpass"
+        tools:text="-TRAIN-" />
 
     <Button
         android:id="@+id/btn_nuke"
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="75dp"
         android:background="@drawable/nuke"
         android:text="@string/nuke"
         android:textAppearance="@android:style/TextAppearance.Holo.Widget.ActionBar.Menu"
-        android:visibility="invisible"
+        android:textSize="40dp"
+        android:textStyle="italic|bold"
         app:layout_constraintBottom_toTopOf="@id/btn_inferno"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_train" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_train"
+        tools:text="-NUKE-" />
 
     <Button
         android:id="@+id/btn_dust2"
         android:layout_width="fill_parent"
         android:layout_height="75dp"
-        android:layout_marginTop="0dp"
-        android:background="@drawable/dust2"
         android:alpha="1"
+        android:background="@drawable/dust2"
         android:text="@string/dust2"
+        android:textAppearance="@android:style/TextAppearance.Holo.Widget.ActionBar.Menu"
         android:textSize="40dp"
         android:textStyle="italic|bold"
-        android:textAppearance="@android:style/TextAppearance.Holo.Widget.ActionBar.Menu"
         android:visibility="visible"
         app:layout_constraintBottom_toTopOf="@id/btn_mirage"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="-DUST2-" />
 
     <Button
         android:id="@+id/btn_inferno"
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="75dp"
         android:background="@drawable/inferno"
         android:text="@string/inferno"
         android:textAppearance="@android:style/TextAppearance.Holo.Widget.ActionBar.Menu"
-        android:visibility="invisible"
+        android:textSize="40dp"
+        android:textStyle="italic|bold"
         app:layout_constraintBottom_toTopOf="@id/btn_cbble"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_nuke" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_nuke"
+        tools:text="-INFERNO-" />
 
     <Button
         android:id="@+id/btn_cbble"
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="75dp"
         android:background="@drawable/cbble"
         android:text="@string/cbble"
         android:textAppearance="@android:style/TextAppearance.Holo.Widget.ActionBar.Menu"
-        android:visibility="invisible"
+        android:textSize="40dp"
+        android:textStyle="italic|bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_inferno" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_inferno"
+        tools:text="-CBBLE-" />
 
 
 </android.support.constraint.ConstraintLayout>
