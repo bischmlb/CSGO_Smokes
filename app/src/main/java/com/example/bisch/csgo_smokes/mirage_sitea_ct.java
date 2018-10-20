@@ -18,7 +18,7 @@ public class mirage_sitea_ct extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_mirage_sitea_con_jun);
+        setContentView(R.layout.activity_mirage_sitea_ct);
 
         videoView = (VideoView) findViewById(R.id.videoView);
 

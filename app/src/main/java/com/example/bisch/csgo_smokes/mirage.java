@@ -10,7 +10,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 import android.widget.TextView;
 
-public class mirage extends AppCompatActivity implements mirage_siteA.OnFragmentInteractionListener, mirage_siteB.OnFragmentInteractionListener, Mid.OnFragmentInteractionListener{
+public class mirage extends AppCompatActivity implements mirage_siteA.OnFragmentInteractionListener, mirage_siteB.OnFragmentInteractionListener, mirage_mid.OnFragmentInteractionListener{
 
     private TextView mTextMessage;
 

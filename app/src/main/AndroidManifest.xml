@@ -29,7 +29,11 @@
             android:label="@string/cache" />
         <activity android:name=".mirage_sitea_stairs" />
         <activity android:name=".mirage_sitea_con_jun" />
-        <activity android:name=".mirage_sitea_ct"></activity>
+        <activity android:name=".mirage_sitea_ct" />
+        <activity android:name=".mirage_mid_cat" />
+        <activity android:name=".mirage_mid_window_t_spawn" />
+        <activity android:name=".mirage_mid_window_b_apps" />
+        <activity android:name=".mirage_mid_connector_b_apps"></activity>
     </application>
 
 </manifest>

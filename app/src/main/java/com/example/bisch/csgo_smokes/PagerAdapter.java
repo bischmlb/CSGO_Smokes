@@ -23,7 +23,7 @@ public class PagerAdapter extends FragmentStatePagerAdapter {
                 mirage_siteA A = new mirage_siteA();
                 return A;
             case 1:
-                Mid mid = new Mid();
+                mirage_mid mid = new mirage_mid();
                 return mid;
             case 2:
                 mirage_siteB B = new mirage_siteB();
