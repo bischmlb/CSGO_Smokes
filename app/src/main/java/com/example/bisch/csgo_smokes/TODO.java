@@ -25,6 +25,7 @@ public class TODO {
         (DONE) A
         (TODO) B
     TODO: Determine and enhance layout on video activities
+    TODO: Find new design for slider bar
     TODO: Find background for mirage themed activities (maybe mirage loading screen)
     TODO: Tips for how the regarding smoke can be used in different situations?
 
