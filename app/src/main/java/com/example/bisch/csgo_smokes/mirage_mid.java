@@ -96,7 +96,7 @@ public class mirage_mid extends Fragment {
         connector_b_apps.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getActivity(), mirage_mid_window_t_spawn.class));
+                startActivity(new Intent(getActivity(), mirage_mid_connector_b_apps.class));
             }
         });
 
