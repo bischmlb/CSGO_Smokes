@@ -11,10 +11,10 @@ public class TODO {
      */
 
 
-    /* TODO: Frontpage:
+    /* DONE: Frontpage:
     DONE: Button wrap content or fixed length?
-    TODO: Find better background imaga
-    TODO: SNAVS Highlights activity?
+    DONE: Find better background imaga
+    DONE: SNAVS Highlights activity?
 
      */
 
