@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#000000"
+    android:background="@drawable/ls_mirage"
     tools:context=".mirage_siteB">
 
     <!-- TODO: Update blank fragment layout -->
@@ -19,6 +19,9 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:text="bench"
+        android:alpha="0.65"
+        android:textStyle="bold"
+        android:background="#000000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -33,6 +36,9 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:text="Under Balcony"
+        android:alpha="0.65"
+        android:textStyle="bold"
+        android:background="#000000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_bench" />
@@ -47,6 +53,9 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:text="Market Window"
+        android:alpha="0.65"
+        android:textStyle="bold"
+        android:background="#000000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_under_balc" />
@@ -61,6 +70,9 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:text="Short/Catwalk"
+        android:alpha="0.65"
+        android:textStyle="bold"
+        android:background="#000000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_market_window" />

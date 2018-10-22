@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#000000"
+    android:background="@drawable/ls_mirage"
     tools:context=".mirage_siteA">
 
     <!-- TODO: Update blank fragment layout -->
@@ -19,6 +19,9 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:text="Stairs"
+        android:alpha="0.65"
+        android:textStyle="bold"
+        android:background="#000000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_ct_spawn" />
@@ -33,6 +36,9 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:text="Connector/Jungle"
+        android:alpha="0.65"
+        android:textStyle="bold"
+        android:background="#000000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_stairs" />
@@ -47,6 +53,9 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:text="CT Spawn"
+        android:alpha="0.65"
+        android:textStyle="bold"
+        android:background="#000000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

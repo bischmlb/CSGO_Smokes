@@ -15,7 +15,7 @@ public class cache extends AppCompatActivity implements mirage_siteA.OnFragmentI
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tablayout);
         tabLayout.addTab(tabLayout.newTab().setText("A"));
-        tabLayout.addTab(tabLayout.newTab().setText("mirage_mid"));
+        tabLayout.addTab(tabLayout.newTab().setText("Mid"));
         tabLayout.addTab(tabLayout.newTab().setText("B"));
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 
