@@ -4,8 +4,9 @@ android {
     compileSdkVersion 28
     defaultConfig {
         applicationId "com.example.bisch.csgo_smokes"
-        minSdkVersion 15
+        minSdkVersion 16
         targetSdkVersion 28
+        buildToolsVersion "28.0.2"
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"

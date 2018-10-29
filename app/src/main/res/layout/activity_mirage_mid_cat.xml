@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/ls_mirage"
-    tools:context=".mirage_mid_cat">
+    tools:context=".mirage.mirage_mid_cat">
 
 
     <VideoView

@@ -8,4 +8,11 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="TabLayoutTextStyle">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:textColor">#ffff00</item>
+        <item name="android:fontFamily">@font/gooddp__</item>
+    </style>
+
 </resources>

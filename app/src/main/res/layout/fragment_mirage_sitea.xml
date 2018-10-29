@@ -4,60 +4,63 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/ls_mirage"
-    tools:context=".mirage_siteA">
+    tools:context=".mirage.mirage_siteA">
 
     <!-- TODO: Update blank fragment layout -->
 
-    <Button
-        android:id="@+id/btn_stairs"
-        android:layout_width="294dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:text="Stairs"
-        android:alpha="0.65"
-        android:textStyle="bold"
-        android:background="#000000"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_ct_spawn" />
-
-    <Button
-        android:id="@+id/btn_con_jun"
-        android:layout_width="294dp"
-        android:layout_height="52dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:text="Connector/Jungle"
-        android:alpha="0.65"
-        android:textStyle="bold"
-        android:background="#000000"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_stairs" />
 
     <Button
         android:id="@+id/btn_ct_spawn"
-        android:layout_width="294dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
+        android:layout_width="170dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
         android:layout_marginTop="16dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:text="CT Spawn"
-        android:alpha="0.65"
-        android:textStyle="bold"
-        android:background="#000000"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:alpha="0.9"
+        android:background="@drawable/imageedit_35_7848876599"
+        android:fontFamily="@font/gooddp__"
+        android:text="CT SPAWN"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        android:textColor="#ffff00"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_con_jun"
+        android:layout_width="170dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:alpha="0.9"
+        android:background="@drawable/imageedit_35_7848876599"
+        android:fontFamily="@font/gooddp__"
+        android:text="Connector + jungle"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        android:textColor="#ffff00"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_ct_spawn"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_stairs"
+        android:layout_width="170dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:alpha="0.9"
+        android:background="@drawable/imageedit_35_7848876599"
+        android:fontFamily="@font/gooddp__"
+        android:text="STAIRS"
+        android:textColor="#ffff00"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_ct_spawn" />
 
 </android.support.constraint.ConstraintLayout>

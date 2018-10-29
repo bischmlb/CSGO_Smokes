@@ -1,14 +1,15 @@
 package com.example.bisch.csgo_smokes;
 
 import android.content.Intent;
+import android.graphics.Paint;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.design.widget.BottomNavigationView;
 import android.support.v7.app.AppCompatActivity;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
-import android.widget.TextView;
+
+import com.example.bisch.csgo_smokes.cache.cache;
+import com.example.bisch.csgo_smokes.dust2.dust2;
+import com.example.bisch.csgo_smokes.mirage.mirage;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -25,6 +26,15 @@ public class MainActivity extends AppCompatActivity {
        final Button nukeBtn = (Button) findViewById(R.id.btn_nuke);
        final Button infernoBtn = (Button) findViewById(R.id.btn_inferno);
        final Button cbbleBtn = (Button) findViewById(R.id.btn_cbble);
+
+        dust2Btn.setPaintFlags(dust2Btn.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG);
+        cacheBtn.setPaintFlags(dust2Btn.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG);
+        overpassBtn.setPaintFlags(dust2Btn.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG);
+        trainBtn.setPaintFlags(dust2Btn.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG);
+        nukeBtn.setPaintFlags(dust2Btn.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG);
+        infernoBtn.setPaintFlags(dust2Btn.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG);
+        cbbleBtn.setPaintFlags(dust2Btn.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG);
+
 
         dust2Btn.setOnClickListener(new View.OnClickListener() {
             @Override
