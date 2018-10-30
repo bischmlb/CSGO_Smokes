@@ -1,14 +1,18 @@
 package com.example.bisch.csgo_smokes.mirage.mirage_sitea_ct;
 
 import android.content.Context;
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 import com.example.bisch.csgo_smokes.R;
+import com.example.bisch.csgo_smokes.mirage.mirage;
+import com.example.bisch.csgo_smokes.mirage.mirage_sitea_stairs;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -65,7 +69,21 @@ public class mirage_sitea_ct_step1 extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_mirage_sitea_ct_step1, container, false);
+        View view = inflater.inflate(R.layout.fragment_mirage_sitea_ct_step1, container, false);
+
+        final Button btn_step2 = (Button) view.findViewById(R.id.btn_step2);
+
+        btn_step2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mirage_sitea_ct_step2 step2= new mirage_sitea_ct_step2();
+                getActivity().getSupportFragmentManager().beginTransaction()
+                        .replace(R.id., step2,"findThisFragment")
+                        .addToBackStack(null)
+                        .commit();
+            }
+        });
+        return view;
     }
 
     // TODO: Rename method, update argument and hook method into UI event

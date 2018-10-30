@@ -4,7 +4,9 @@ import android.content.Intent;
 import android.graphics.Paint;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.transition.Explode;
 import android.view.View;
+import android.view.Window;
 import android.widget.Button;
 
 import com.example.bisch.csgo_smokes.cache.cache;
@@ -34,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
         nukeBtn.setPaintFlags(dust2Btn.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG);
         infernoBtn.setPaintFlags(dust2Btn.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG);
         cbbleBtn.setPaintFlags(dust2Btn.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG);
+
 
 
         dust2Btn.setOnClickListener(new View.OnClickListener() {

@@ -4,7 +4,7 @@ android {
     compileSdkVersion 28
     defaultConfig {
         applicationId "com.example.bisch.csgo_smokes"
-        minSdkVersion 16
+        minSdkVersion 21
         targetSdkVersion 28
         buildToolsVersion "28.0.2"
         versionCode 1
