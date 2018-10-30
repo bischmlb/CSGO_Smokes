@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/ls_mirage"
     tools:context=".mirage.mirage_sitea_ct.mirage_sitea_ct_step2">
 
     <!-- TODO: Update blank fragment layout -->
@@ -12,7 +13,7 @@
         android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:alpha="0.65"
+        android:alpha="0.85"
         android:background="#000000"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -21,50 +22,98 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView5"
-        android:layout_width="359dp"
-        android:layout_height="35dp"
+        android:id="@+id/textView4"
+        android:layout_width="375dp"
+        android:layout_height="172dp"
         android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:text="2. Turn towards A-site, and place your crosshair right above, and left to the corner of the small roof."
+        android:fontFamily="@font/gooddp__"
+        android:text="Place your crosshair above and to the left of the small roof. Keep in mind that this is a jump throw."
+        android:textColor="#ffff00"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.527"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="375dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/gooddp__"
+        android:text="You're ready to throw "
+        android:textColor="#ffff00"
+        android:textSize="40sp"
         android:textStyle="bold|italic"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="121dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/imageedit_35_7848876599"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.97"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="362dp"
+        android:layout_height="215dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:alpha="0.8"
+        android:background="#000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.314"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/cross_hair_placement_ct_smoke" />
+
+    <Button
+        android:id="@+id/btn_step_video"
+        android:layout_width="209dp"
+        android:layout_height="164dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="492dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/arrow_black"
+        android:fontFamily="@font/gooddp__"
+        android:text="Move to video example         "
+        android:textColor="#ffff00"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="360dp"
-        android:layout_height="200dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginLeft="4dp"
-        android:layout_marginTop="92dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5"
-        app:srcCompat="@drawable/cross_hair_placement_ct_smoke" />
-
-    <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="360dp"
-        android:layout_height="200dp"
+        android:layout_width="153dp"
+        android:layout_height="129dp"
         android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="88dp"
+        android:layout_marginTop="84dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginBottom="8dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:alpha="0.8"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.909"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="@+id/imageView3"
         app:srcCompat="@drawable/cross_hair_placement_ct_smoke_2" />
 
 </android.support.constraint.ConstraintLayout>

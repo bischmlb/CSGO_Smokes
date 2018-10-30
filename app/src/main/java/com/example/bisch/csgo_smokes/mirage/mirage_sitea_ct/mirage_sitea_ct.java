@@ -4,6 +4,7 @@ import android.graphics.Paint;
 import android.media.MediaPlayer;
 import android.net.Uri;
 import android.support.design.widget.TabLayout;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -31,10 +32,11 @@ public class mirage_sitea_ct
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mirage_sitea_ct);
 
+
         TabLayout tabLayout2 = (TabLayout) findViewById(R.id.tablayout);
+        tabLayout2.addTab(tabLayout2.newTab().setText("Overview "));
         tabLayout2.addTab(tabLayout2.newTab().setText("Step 1 "));
         tabLayout2.addTab(tabLayout2.newTab().setText("Step 2 "));
-        tabLayout2.addTab(tabLayout2.newTab().setText("Video "));
         tabLayout2.setTabGravity(TabLayout.GRAVITY_FILL);
 
         final ViewPager viewPager2 = (ViewPager)findViewById(R.id.pager);

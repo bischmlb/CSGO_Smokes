@@ -20,6 +20,7 @@ public class PagerAdapter_mirage extends FragmentStatePagerAdapter {
     }
 
 
+
     @Override
     public Fragment getItem(int position) {
         switch (position) {
@@ -36,6 +37,11 @@ public class PagerAdapter_mirage extends FragmentStatePagerAdapter {
                 return null;
         }
 
+    }
+
+    @Override
+    public CharSequence getPageTitle(int position) {
+        return null;
     }
 
     @Override

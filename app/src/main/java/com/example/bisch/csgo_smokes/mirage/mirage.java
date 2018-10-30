@@ -1,6 +1,7 @@
 package com.example.bisch.csgo_smokes.mirage;
 
 import android.content.Intent;
+import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -8,6 +9,8 @@ import android.support.design.widget.BottomNavigationView;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
+import android.text.SpannableString;
+import android.text.style.ImageSpan;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
@@ -135,8 +138,19 @@ public class mirage
 
             }
         });
+/*
+        int[] imageResId = {
+                R.drawable.smokegrenade,
+                R.drawable.smokegrenade,
+                R.drawable.smokegrenade };
+
+        for (int i = 0; i < imageResId.length; i++){
+            tabLayout.getTabAt(i).setIcon(imageResId[i]);
+
+        }
 
 
+*/
     }
 
     @Override

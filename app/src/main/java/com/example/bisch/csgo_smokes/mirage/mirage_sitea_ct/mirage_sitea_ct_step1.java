@@ -78,7 +78,7 @@ public class mirage_sitea_ct_step1 extends Fragment {
             public void onClick(View v) {
                 mirage_sitea_ct_step2 step2= new mirage_sitea_ct_step2();
                 getActivity().getSupportFragmentManager().beginTransaction()
-                        .replace(R.id., step2,"findThisFragment")
+                        .replace(R.id.fragmentContainer, step2,"findThisFragment")
                         .addToBackStack(null)
                         .commit();
             }

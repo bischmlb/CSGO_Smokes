@@ -5,20 +5,34 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#000000"
+    android:background="@drawable/ls_mirage"
     tools:context=".mirage.mirage">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.5"
+        android:background="#000000"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="410dp"
+        android:layout_width="match_parent"
         android:layout_height="375dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        android:background="#c83d3d3d"
         app:srcCompat="@drawable/mirage_ov" />
+
 
     <Button
         android:id="@+id/btn_stairs"
@@ -245,13 +259,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:minHeight="?android:attr/actionBarSize"
-        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-        android:background="@drawable/roundbutton"
+        app:tabMode="fixed"
+        style="@style/MyCustomTabLayout"
         app:layout_constraintEnd_toEndOf="parent"
+        android:background="#b0505050"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:tabTextAppearance="@style/TabLayoutTextStyle" />
+        />
 
     <android.support.v4.view.ViewPager
         android:id="@+id/pager"
@@ -261,7 +276,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tablayout"
-        android:background="@drawable/ge"
         tools:ignore="MissingConstraints" />
 
 
