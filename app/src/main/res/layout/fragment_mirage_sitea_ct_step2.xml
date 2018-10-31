@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/ls_mirage"
     tools:context=".mirage.mirage_sitea_ct.mirage_sitea_ct_step2">
 
     <!-- TODO: Update blank fragment layout -->

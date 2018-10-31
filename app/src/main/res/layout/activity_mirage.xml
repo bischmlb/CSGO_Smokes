@@ -23,14 +23,14 @@
 
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/overView"
         android:layout_width="match_parent"
         android:layout_height="375dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:background="#4e000000"
+
         app:srcCompat="@drawable/mirage_ov" />
 
 
@@ -49,7 +49,7 @@
         android:fontFamily="@font/gooddp__"
         android:textSize="40sp"
         android:textStyle="bold|italic"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintBottom_toBottomOf="@+id/overView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.55"
         app:layout_constraintStart_toStartOf="parent"
@@ -71,7 +71,7 @@
         android:fontFamily="@font/gooddp__"
         android:textSize="40sp"
         android:textStyle="bold|italic"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintBottom_toBottomOf="@+id/overView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.466"
         app:layout_constraintStart_toStartOf="parent"
@@ -92,11 +92,11 @@
         android:fontFamily="@font/gooddp__"
         android:textSize="40sp"
         android:textStyle="bold|italic"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintBottom_toBottomOf="@+id/overView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.435"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/overView"
         app:layout_constraintVertical_bias="0.978" />
 
     <Button
@@ -114,7 +114,7 @@
         android:fontFamily="@font/gooddp__"
         android:textSize="40sp"
         android:textStyle="bold|italic"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintBottom_toBottomOf="@+id/overView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.37"
         app:layout_constraintStart_toStartOf="parent"
@@ -136,7 +136,7 @@
         android:fontFamily="@font/gooddp__"
         android:textSize="40sp"
         android:textStyle="bold|italic"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintBottom_toBottomOf="@+id/overView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.631"
         app:layout_constraintStart_toStartOf="parent"
@@ -158,7 +158,7 @@
         android:fontFamily="@font/gooddp__"
         android:textSize="40sp"
         android:textStyle="bold|italic"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintBottom_toBottomOf="@+id/overView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.485"
         app:layout_constraintStart_toStartOf="parent"
@@ -180,7 +180,7 @@
         android:fontFamily="@font/gooddp__"
         android:textSize="40sp"
         android:textStyle="bold|italic"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintBottom_toBottomOf="@+id/overView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.35"
         app:layout_constraintStart_toStartOf="parent"
@@ -202,7 +202,7 @@
         android:fontFamily="@font/gooddp__"
         android:textSize="40sp"
         android:textStyle="bold|italic"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintBottom_toBottomOf="@+id/overView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.031"
         app:layout_constraintStart_toStartOf="parent"
@@ -224,7 +224,7 @@
         android:fontFamily="@font/gooddp__"
         android:textSize="40sp"
         android:textStyle="bold|italic"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintBottom_toBottomOf="@+id/overView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.146"
         app:layout_constraintStart_toStartOf="parent"
@@ -246,7 +246,7 @@
         android:fontFamily="@font/gooddp__"
         android:textSize="40sp"
         android:textStyle="bold|italic"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintBottom_toBottomOf="@+id/overView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.183"
         app:layout_constraintStart_toStartOf="parent"
@@ -260,13 +260,14 @@
         android:layout_height="wrap_content"
         android:minHeight="?android:attr/actionBarSize"
         android:maxHeight="240dp"
+        android:layout_marginTop="64dp"
         app:tabMode="fixed"
         style="@style/MyCustomTabLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        android:background="#79000000"
+        app:tabBackground="@drawable/tab_style"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/overView"
         />
 
     <android.support.v4.view.ViewPager
@@ -276,9 +277,29 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:background="#79000000"
+        android:background="#d0292929"
         app:layout_constraintTop_toBottomOf="@+id/tablayout"
         tools:ignore="MissingConstraints" />
+
+    <android.support.v7.widget.SwitchCompat
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="348dp"
+        android:layout_marginEnd="8dp"
+        android:checked="false"
+        android:fontFamily="@font/gooddp__"
+        android:text="Show Positions: "
+        android:textOff="No"
+        android:textOn="Yes"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.906"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:showText="true"
+        app:thumbTint="#464646" />
 
 
 </android.support.constraint.ConstraintLayout>

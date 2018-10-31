@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/ls_mirage"
     tools:context=".mirage.mirage_sitea_ct.mirage_sitea_ct_vid">
 
     <!-- TODO: Update blank fragment layout -->
@@ -14,8 +13,7 @@
         android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:alpha="0.85"
-        android:background="#000000"
+        android:background="#d9000000"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -47,25 +45,22 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="68dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
         android:fontFamily="@font/gooddp__"
         android:text=" * Jump + Throw"
         android:textColor="#ffff00"
         android:textSize="40sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/videoView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.977"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView13"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
 
     <TextView
         android:id="@+id/textView12"
         android:layout_width="188dp"
         android:layout_height="50dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="68dp"
+        android:layout_marginTop="48dp"
         android:fontFamily="@font/gooddp__"
         android:text=" * Hug door"
         android:textColor="#ffff00"
@@ -107,7 +102,7 @@
         android:layout_width="160dp"
         android:layout_height="100dp"
         android:layout_marginStart="40dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="28dp"
         android:alpha="0.8"
         android:background="#000"
         android:src="@drawable/metal_door_ct_smoke"
@@ -132,11 +127,11 @@
         android:layout_width="121dp"
         android:layout_height="83dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="44dp"
         android:layout_marginEnd="8dp"
-        android:src="@drawable/smokegrenade"
+        android:src="@drawable/imageedit_35_7848876599"
         app:layout_constraintEnd_toStartOf="@+id/textView11"
-        app:layout_constraintHorizontal_bias="0.367"
+        app:layout_constraintHorizontal_bias="0.62"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView8" />
 

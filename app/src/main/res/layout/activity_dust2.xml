@@ -8,7 +8,7 @@
     tools:context=".dust2.dust2">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/overView"
         android:layout_width="wrap_content"
         android:layout_height="417dp"
         android:layout_marginTop="200dp"
@@ -31,7 +31,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/overView" />
 
     <android.support.v4.view.ViewPager
         android:id="@+id/pager"

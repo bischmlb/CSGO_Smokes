@@ -1,20 +1,20 @@
 package com.example.bisch.csgo_smokes.mirage;
 
 import android.content.Intent;
-import android.graphics.drawable.Drawable;
+import android.content.res.ColorStateList;
+import android.graphics.Color;
+import android.graphics.PorterDuff;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.design.widget.BottomNavigationView;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
-import android.text.SpannableString;
-import android.text.style.ImageSpan;
-import android.view.MenuItem;
+import android.support.v7.widget.SwitchCompat;
 import android.view.View;
 import android.widget.Button;
-import android.widget.TextView;
+import android.widget.CompoundButton;
+import android.widget.ImageView;
+import android.widget.Switch;
 
 import com.example.bisch.csgo_smokes.R;
 import com.example.bisch.csgo_smokes.mirage.mirage_sitea_ct.mirage_sitea_ct;
@@ -30,11 +30,36 @@ public class mirage
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mirage);
 
+        final SwitchCompat SW = (SwitchCompat) findViewById(R.id.switch1);
+        final ImageView IV = (ImageView) findViewById(R.id.overView);
+
+
+
+        SW.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean switchState) {
+                if(switchState){
+                    IV.setImageResource(R.drawable.mirage_ov2);
+                }else{ IV.setImageResource(R.drawable.mirage_ov);}
+            }
+        });
+        ColorStateList trackStates = new ColorStateList(
+                new int[][]{
+                        new int[]{-android.R.attr.state_enabled},
+                        new int[]{}
+                },
+                new int[]{
+                        Color.YELLOW,
+                        Color.LTGRAY
+                }
+        );
+
+        SW.setTrackTintList(trackStates);
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tablayout);
-        tabLayout.addTab(tabLayout.newTab().setText("A "));
-        tabLayout.addTab(tabLayout.newTab().setText("MID "));
-        tabLayout.addTab(tabLayout.newTab().setText("B "));
+        tabLayout.addTab(tabLayout.newTab().setText("A"));
+        tabLayout.addTab(tabLayout.newTab().setText("MID"));
+        tabLayout.addTab(tabLayout.newTab().setText("B"));
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 
         final Button stairs = (Button) findViewById(R.id.btn_stairs);
