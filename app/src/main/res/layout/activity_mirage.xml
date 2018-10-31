@@ -31,7 +31,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
 
-        app:srcCompat="@drawable/mirage_ov2" />
+        app:srcCompat="@drawable/mirage_ov2_1" />
 
 
     <Button

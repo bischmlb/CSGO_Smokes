@@ -41,7 +41,7 @@ public class mirage
             public void onCheckedChanged(CompoundButton compoundButton, boolean switchState) {
                 if(switchState){
                     IV.setImageResource(R.drawable.mirage_ov);
-                }else{ IV.setImageResource(R.drawable.mirage_ov2);}
+                }else{ IV.setImageResource(R.drawable.mirage_ov2_1);}
             }
         });
         ColorStateList trackStates = new ColorStateList(
