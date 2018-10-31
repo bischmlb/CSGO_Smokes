@@ -35,12 +35,13 @@ public class mirage
 
 
 
+
         SW.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton compoundButton, boolean switchState) {
                 if(switchState){
-                    IV.setImageResource(R.drawable.mirage_ov2);
-                }else{ IV.setImageResource(R.drawable.mirage_ov);}
+                    IV.setImageResource(R.drawable.mirage_ov);
+                }else{ IV.setImageResource(R.drawable.mirage_ov2);}
             }
         });
         ColorStateList trackStates = new ColorStateList(
