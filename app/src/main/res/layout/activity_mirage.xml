@@ -30,7 +30,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:background="#c83d3d3d"
+        android:background="#4e000000"
         app:srcCompat="@drawable/mirage_ov" />
 
 
@@ -259,11 +259,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:minHeight="?android:attr/actionBarSize"
+        android:maxHeight="240dp"
         app:tabMode="fixed"
         style="@style/MyCustomTabLayout"
         app:layout_constraintEnd_toEndOf="parent"
-        android:background="#b0505050"
         app:layout_constraintHorizontal_bias="0.0"
+        android:background="#79000000"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
         />
@@ -275,6 +276,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        android:background="#79000000"
         app:layout_constraintTop_toBottomOf="@+id/tablayout"
         tools:ignore="MissingConstraints" />
 
