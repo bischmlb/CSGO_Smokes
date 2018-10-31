@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:theme="@style/Theme.AppCompat.NoActionBar"
-    android:background="#000000"
+    android:background="@drawable/ge"
     tools:context=".MainActivity">
 
 

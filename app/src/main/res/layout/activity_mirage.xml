@@ -288,7 +288,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="348dp"
         android:layout_marginEnd="8dp"
-        android:checked="false"
+        android:checked="true"
         android:fontFamily="@font/gooddp__"
         android:text="Show Positions: "
         android:textOff="No"
