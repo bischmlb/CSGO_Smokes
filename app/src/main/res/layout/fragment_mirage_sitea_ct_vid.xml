@@ -11,9 +11,9 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="match_parent"
+        android:layout_width="414dp"
         android:layout_height="match_parent"
-        android:background="#d9000000"
+        android:background="#af000000"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -38,55 +38,6 @@
         app:layout_constraintTop_toTopOf="@+id/videoView" />
 
 
-    <TextView
-        android:id="@+id/textView11"
-        android:layout_width="175dp"
-        android:layout_height="82dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="68dp"
-        android:layout_marginEnd="8dp"
-        android:fontFamily="@font/gooddp__"
-        android:text=" * Jump + Throw"
-        android:textColor="#ffff00"
-        android:textSize="40sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.977"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView13" />
-
-    <TextView
-        android:id="@+id/textView12"
-        android:layout_width="188dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="48dp"
-        android:fontFamily="@font/gooddp__"
-        android:text=" * Hug door"
-        android:textColor="#ffff00"
-        android:textSize="40sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/imageView6"
-        app:layout_constraintTop_toTopOf="@+id/textView2" />
-
-    <TextView
-        android:id="@+id/textView13"
-        android:layout_width="188dp"
-        android:layout_height="81dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="76dp"
-        android:fontFamily="@font/gooddp__"
-        android:text=" * Place  crosshair"
-        android:textColor="#ffff00"
-        android:textSize="40sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/imageView8"
-        app:layout_constraintTop_toBottomOf="@+id/textView12" />
-
     <VideoView
         android:id="@+id/videoView"
         android:layout_width="fill_parent"
@@ -99,40 +50,112 @@
 
     <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="160dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="28dp"
-        android:alpha="0.8"
-        android:background="#000"
+        android:layout_width="320dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:background="#c8000000"
         android:src="@drawable/metal_door_ct_smoke"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/textView2" />
 
+
     <ImageView
         android:id="@+id/imageView8"
-        android:layout_width="160dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="48dp"
-        android:alpha="0.8"
-        android:background="#000"
+        android:layout_width="320dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="#c8000000"
         android:src="@drawable/cross_hair_placement_ct_smoke"
+        app:layout_constraintBottom_toTopOf="@+id/videoView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.234"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
-
+        app:layout_constraintTop_toBottomOf="@+id/imageView6"
+        app:layout_constraintVertical_bias="0.526" />
 
     <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="121dp"
-        android:layout_height="83dp"
+        android:id="@+id/imageView9"
+        android:layout_width="136dp"
+        android:layout_height="73dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="44dp"
         android:layout_marginEnd="8dp"
-        android:src="@drawable/imageedit_35_7848876599"
-        app:layout_constraintEnd_toStartOf="@+id/textView11"
-        app:layout_constraintHorizontal_bias="0.62"
+        android:background="#bf000000"
+        android:src="@drawable/crosshair_nice"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.15"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+        app:layout_constraintTop_toTopOf="@+id/imageView8" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="138dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/gooddp__"
+        android:text=" * Place crosshair here"
+        android:textColor="#ffff00"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.147"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView9" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="147dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="8dp"
+        android:alpha="0.8"
+        android:background="#c8000000"
+        android:src="@drawable/cross_hair_placement_ct_smoke_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.027"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView8" />
+
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="200dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="168dp"
+        android:background="#bf000000"
+        android:fontFamily="@font/gooddp__"
+        android:text=" * Hug door &amp; turn towards A-site"
+        android:textColor="#ffff00"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.82"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="112dp"
+        android:layout_height="14dp"
+        android:layout_marginEnd="304dp"
+        android:alpha="0.8"
+        android:background="#bf000000"
+        android:fontFamily="@font/gooddp__"
+        android:text=" * This is a jump-throw!"
+        android:textColor="#ffff00"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/videoView" />
 
 </android.support.constraint.ConstraintLayout>

@@ -265,7 +265,7 @@
         style="@style/MyCustomTabLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:tabBackground="@drawable/tab_style"
+        app:tabBackground="@drawable/tab_style2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/overView"
         />
@@ -277,7 +277,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:background="#d0292929"
+        android:background="#94000000"
         app:layout_constraintTop_toBottomOf="@+id/tablayout"
         tools:ignore="MissingConstraints" />
 

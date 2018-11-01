@@ -88,7 +88,7 @@
         android:id="@+id/btn_dust2"
         android:layout_width="match_parent"
         android:layout_height="75dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="52dp"
         android:alpha="1"
         android:background="@drawable/dust2"
         android:text="@string/dust2"
@@ -98,6 +98,7 @@
         android:textStyle="bold|italic"
         android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 

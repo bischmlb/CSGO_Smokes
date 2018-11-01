@@ -15,6 +15,7 @@ import android.widget.Button;
 import android.widget.CompoundButton;
 import android.widget.ImageView;
 import android.widget.Switch;
+import android.widget.Toast;
 
 import com.example.bisch.csgo_smokes.R;
 import com.example.bisch.csgo_smokes.mirage.mirage_sitea_ct.mirage_sitea_ct;
@@ -41,7 +42,11 @@ public class mirage
             public void onCheckedChanged(CompoundButton compoundButton, boolean switchState) {
                 if(switchState){
                     IV.setImageResource(R.drawable.mirage_ov);
-                }else{ IV.setImageResource(R.drawable.mirage_ov2_1);}
+                    Toast.makeText(mirage.this, "Positions are now hidden", Toast.LENGTH_SHORT).show();
+                }else{
+                    IV.setImageResource(R.drawable.mirage_ov2_1);
+                    Toast.makeText(mirage.this, "Positions are now shown", Toast.LENGTH_SHORT).show();
+                }
             }
         });
         ColorStateList trackStates = new ColorStateList(
