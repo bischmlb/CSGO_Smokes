@@ -40,7 +40,7 @@ public class mirage_sitea_ct_step2 extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment mirage_sitea_ct_step2.
+     * @return A new instance of fragment mirage_sitea_stairs_step2.
      */
     // TODO: Rename and change types and number of parameters
     public static mirage_sitea_ct_step2 newInstance(String param1, String param2) {

@@ -1,19 +1,14 @@
 package com.example.bisch.csgo_smokes.mirage.mirage_sitea_ct;
 
-import android.graphics.Paint;
-import android.media.MediaPlayer;
 import android.net.Uri;
 import android.support.design.widget.TabLayout;
-import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.widget.MediaController;
 import android.widget.VideoView;
 
 import com.example.bisch.csgo_smokes.R;
-import com.example.bisch.csgo_smokes.mirage.PagerAdapter_mirage;
 
 public class mirage_sitea_ct
         extends AppCompatActivity

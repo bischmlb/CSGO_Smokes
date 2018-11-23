@@ -29,7 +29,7 @@
         <activity
             android:name=".cache.cache"
             android:label="@string/cache" />
-        <activity android:name=".mirage.mirage_sitea_stairs" />
+        <activity android:name=".mirage.mirage_sitea_stairs.mirage_sitea_stairs" />
         <activity android:name=".mirage.mirage_sitea_con_jun" />
         <activity android:name=".mirage.mirage_sitea_ct.mirage_sitea_ct" />
         <activity android:name=".mirage.mirage_mid_cat" />

@@ -1,7 +1,6 @@
 package com.example.bisch.csgo_smokes.mirage.mirage_sitea_ct;
 
 import android.content.Context;
-import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -11,8 +10,6 @@ import android.view.ViewGroup;
 import android.widget.Button;
 
 import com.example.bisch.csgo_smokes.R;
-import com.example.bisch.csgo_smokes.mirage.mirage;
-import com.example.bisch.csgo_smokes.mirage.mirage_sitea_stairs;
 
 /**
  * A simple {@link Fragment} subclass.

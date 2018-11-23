@@ -3,7 +3,6 @@ package com.example.bisch.csgo_smokes.mirage;
 import android.content.Intent;
 import android.content.res.ColorStateList;
 import android.graphics.Color;
-import android.graphics.PorterDuff;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
@@ -14,11 +13,11 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.CompoundButton;
 import android.widget.ImageView;
-import android.widget.Switch;
 import android.widget.Toast;
 
 import com.example.bisch.csgo_smokes.R;
 import com.example.bisch.csgo_smokes.mirage.mirage_sitea_ct.mirage_sitea_ct;
+import com.example.bisch.csgo_smokes.mirage.mirage_sitea_stairs.mirage_sitea_stairs;
 
 public class mirage
         extends AppCompatActivity
@@ -64,7 +63,7 @@ public class mirage
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tablayout);
         tabLayout.addTab(tabLayout.newTab().setText("A"));
-        tabLayout.addTab(tabLayout.newTab().setText("Mid"));
+        tabLayout.addTab(tabLayout.newTab().setText("MID"));
         tabLayout.addTab(tabLayout.newTab().setText("B"));
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 
