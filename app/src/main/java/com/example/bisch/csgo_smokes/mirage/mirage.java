@@ -1,5 +1,6 @@
 package com.example.bisch.csgo_smokes.mirage;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.content.res.ColorStateList;
 import android.graphics.Color;
@@ -10,6 +11,7 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.SwitchCompat;
 import android.view.View;
+import android.view.Window;
 import android.widget.Button;
 import android.widget.CompoundButton;
 import android.widget.ImageView;
@@ -30,8 +32,12 @@ public class mirage
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mirage);
 
+
         final SwitchCompat SW = (SwitchCompat) findViewById(R.id.switch1);
+        final SwitchCompat SW2 = (SwitchCompat) findViewById(R.id.switch2);
         final ImageView IV = (ImageView) findViewById(R.id.overView);
+        final ViewPager viewPager = (ViewPager) findViewById(R.id.pager);
+        final TabLayout tabLayout = (TabLayout) findViewById(R.id.tablayout);
 
 
 
@@ -46,8 +52,25 @@ public class mirage
                     IV.setImageResource(R.drawable.mirage_ov2_1);
                     Toast.makeText(mirage.this, "Positions are now shown", Toast.LENGTH_SHORT).show();
                 }
+
             }
         });
+
+        SW2.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if (b) {
+                    viewPager.setVisibility(View.VISIBLE);
+                    tabLayout.setVisibility(View.VISIBLE);
+                    Toast.makeText(mirage.this, "The helper-menu is now hidden", Toast.LENGTH_SHORT).show();
+                } else {
+                    viewPager.setVisibility(View.GONE);
+                    tabLayout.setVisibility(View.GONE);
+                    Toast.makeText(mirage.this, "The helper-menu is now shown", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+
         ColorStateList trackStates = new ColorStateList(
                 new int[][]{
                         new int[]{-android.R.attr.state_enabled},
@@ -60,8 +83,8 @@ public class mirage
         );
 
         SW.setTrackTintList(trackStates);
+        SW2.setTrackTintList(trackStates);
 
-        TabLayout tabLayout = (TabLayout) findViewById(R.id.tablayout);
         tabLayout.addTab(tabLayout.newTab().setText("A"));
         tabLayout.addTab(tabLayout.newTab().setText("MID"));
         tabLayout.addTab(tabLayout.newTab().setText("B"));
@@ -147,7 +170,6 @@ public class mirage
             }
         });
 
-        final ViewPager viewPager = (ViewPager)findViewById(R.id.pager);
         final PagerAdapter_mirage adapter = new PagerAdapter_mirage(getSupportFragmentManager(),tabLayout.getTabCount());
         viewPager.setAdapter(adapter);
         viewPager.setOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));

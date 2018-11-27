@@ -88,7 +88,7 @@
         android:id="@+id/btn_dust2"
         android:layout_width="match_parent"
         android:layout_height="75dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="36dp"
         android:alpha="1"
         android:background="@drawable/dust2"
         android:text="@string/dust2"
@@ -144,7 +144,7 @@
         android:textSize="40sp"
         android:textStyle="italic|bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.62"
+        app:layout_constraintHorizontal_bias="0.698"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:text="SELECT A MAP" />

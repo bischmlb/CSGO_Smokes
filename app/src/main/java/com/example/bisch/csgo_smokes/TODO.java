@@ -14,7 +14,7 @@ public class TODO {
     /* DONE: Frontpage:
     DONE: Button wrap content or fixed length?
     DONE: Find better background imaga
-    DONE: SNAVS Highlights activity?
+    DONE: // NO: SNAVS Highlights activity?
 
      */
 
@@ -28,11 +28,11 @@ public class TODO {
     (DONE): Find new design for slider bar
     (DONE): Find background for mirage themed activities (maybe mirage loading screen)
     (DONE): // NO: Tips for how the regarding smoke can be used in different situations?
-    TODO: Finish mirage_stairs smoke
-    TODO:
+    (DONE): Finish mirage_stairs smoke
+    (DONE): (Find new smokes icon for map overlook (maybe) )
 
-
-    TODO: (Find new smokes icon for map overlook (maybe) )
+    TODO: con_jun activity
+    TODO: Fix nade-helper-menu
 
     TODO: Finish mirage as a base before starting on new maps
     */

@@ -29,7 +29,7 @@
         android:fontFamily="@font/gooddp__"
         android:text="Place your crosshair above and to the left of the small roof. Keep in mind that this is a jump throw."
         android:textColor="#ffff00"
-        android:textSize="40sp"
+        android:textSize="32sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.527"

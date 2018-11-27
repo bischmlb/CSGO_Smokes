@@ -22,7 +22,7 @@
         </activity>
         <activity
             android:name=".mirage.mirage"
-            android:label="@string/title_activity_mirage" />
+            android:label="MIRAGE" />
         <activity
             android:name=".dust2.dust2"
             android:label="@string/dust2" />
