@@ -40,10 +40,10 @@ public class mirage
             @Override
             public void onCheckedChanged(CompoundButton compoundButton, boolean switchState) {
                 if(switchState){
-                    IV.setImageResource(R.drawable.mirage_ov2_1);
+                    IV.setImageResource(R.drawable.mirage_ov);
                     Toast.makeText(mirage.this, "Positions are now hidden", Toast.LENGTH_SHORT).show();
                 }else{
-                    IV.setImageResource(R.drawable.mirage_ov);
+                    IV.setImageResource(R.drawable.mirage_ov2_1);
                     Toast.makeText(mirage.this, "Positions are now shown", Toast.LENGTH_SHORT).show();
                 }
             }
