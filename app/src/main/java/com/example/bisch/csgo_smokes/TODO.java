@@ -33,6 +33,7 @@ public class TODO {
 
     TODO: con_jun activity
     TODO: Fix nade-helper-menu
+    TODO: Change hide positions slider to show positions
 
     TODO: Finish mirage as a base before starting on new maps
     */
