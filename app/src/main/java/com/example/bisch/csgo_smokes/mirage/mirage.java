@@ -71,11 +71,11 @@ public class mirage
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if (b) {
                     viewPager.setVisibility(View.VISIBLE);
-                    tabLayout.setVisibility(View.VISIBLE);
+                    //tabLayout.setVisibility(View.VISIBLE);
                     Toast.makeText(mirage.this, "The helper-menu is now shown", Toast.LENGTH_SHORT).show();
                 } else {
                     viewPager.setVisibility(View.GONE);
-                    tabLayout.setVisibility(View.GONE);
+                    //tabLayout.setVisibility(View.GONE);
                     Toast.makeText(mirage.this, "The helper-menu is now hidden", Toast.LENGTH_SHORT).show();
                 }
             }

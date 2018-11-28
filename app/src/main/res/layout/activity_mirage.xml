@@ -9,7 +9,6 @@
     tools:context=".mirage.mirage">
 
 
-
     <TextView
         android:id="@+id/textView2"
         android:layout_width="match_parent"
@@ -17,8 +16,8 @@
         android:alpha="0.5"
         android:background="@drawable/roundbutton2"
         android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -93,7 +92,7 @@
         android:layout_height="35dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
-        android:background="@drawable/cloud91"
+        android:background="@drawable/cloud91_hard"
         android:fontFamily="@font/gooddp__"
         android:textSize="40sp"
         android:textStyle="bold|italic"
@@ -125,19 +124,18 @@
         android:id="@+id/btn_connector"
         android:layout_width="51dp"
         android:layout_height="35dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginStart="180dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
         android:background="@drawable/cloud91"
         android:fontFamily="@font/gooddp__"
         android:textSize="40sp"
         android:textStyle="bold|italic"
-        app:layout_constraintBottom_toTopOf="@+id/tablayout"
+        app:layout_constraintBottom_toBottomOf="@+id/overView"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/overView"
-        app:layout_constraintVertical_bias="0.588" />
+        app:layout_constraintVertical_bias="0.555" />
 
     <Button
         android:id="@+id/btn_short_cat"
@@ -213,24 +211,27 @@
         android:layout_height="wrap_content"
         android:maxHeight="240dp"
         android:minHeight="?android:attr/actionBarSize"
-        android:visibility="invisible"
+        android:visibility="gone"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/overView"
+        app:layout_constraintTop_toTopOf="parent"
         app:tabBackground="@drawable/tab_style2"
         app:tabMode="fixed" />
 
     <android.support.v4.view.ViewPager
         android:id="@+id/pager"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="84dp"
+        android:layout_marginBottom="8dp"
+        android:background="#82414141"
         android:visibility="invisible"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/overView"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        android:background="#75000000"
         app:layout_constraintTop_toBottomOf="@+id/tablayout"
+        app:layout_constraintVertical_bias="0.0"
         tools:ignore="MissingConstraints" />
 
     <android.support.v7.widget.SwitchCompat
@@ -245,15 +246,15 @@
         android:textOn="On"
         android:textSize="20dp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/overView"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/switch2"
         app:showText="true"
         app:thumbTint="#464646" />
 
     <android.support.v7.widget.SwitchCompat
         android:id="@+id/switch2"
         android:layout_width="155dp"
-        android:layout_height="31dp"
+        android:layout_height="0dp"
         android:background="@drawable/roundbutton"
         android:checked="false"
         android:fontFamily="@font/gooddp__"
@@ -262,8 +263,8 @@
         android:textOn="On"
         android:textSize="20dp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/switch1"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/switch3"
         app:showText="true"
         app:thumbTint="#464646" />
 
@@ -271,16 +272,17 @@
         android:id="@+id/switch3"
         android:layout_width="155dp"
         android:layout_height="0dp"
+        android:layout_marginTop="8dp"
         android:background="@drawable/roundbutton"
-        android:checked="false"
+        android:checked="true"
         android:fontFamily="@font/gooddp__"
         android:text="Hard Smokes "
         android:textOff="Off"
         android:textOn="On"
         android:textSize="20dp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/switch2"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/overView"
         app:showText="true"
         app:thumbTint="#464646" />
 
