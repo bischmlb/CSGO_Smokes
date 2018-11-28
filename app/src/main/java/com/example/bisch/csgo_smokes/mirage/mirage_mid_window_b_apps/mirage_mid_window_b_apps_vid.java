@@ -103,7 +103,7 @@ public class mirage_mid_window_b_apps_vid extends Fragment {
                 mediaController.setAlpha(0.2f);
                 videoView.seekTo(position);
                 if(position == 0) {
-                    videoView.seekTo(0);
+                    videoView.start();
                 }
 
                 mediaPlayer.setOnVideoSizeChangedListener(new MediaPlayer.OnVideoSizeChangedListener() {
