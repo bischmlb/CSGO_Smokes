@@ -1,4 +1,4 @@
-package com.example.bisch.csgo_smokes.mirage.mirage_sitea_ct;
+package com.example.bisch.csgo_smokes.mirage.mirage_siteb_bench;
 
 import android.content.Context;
 import android.media.MediaPlayer;
@@ -13,16 +13,17 @@ import android.widget.MediaController;
 import android.widget.VideoView;
 
 import com.example.bisch.csgo_smokes.R;
+import com.example.bisch.csgo_smokes.mirage.mirage_mid_connector_b_apps.mirage_mid_connector_b_apps_vid;
 
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link mirage_sitea_ct_vid.OnFragmentInteractionListener} interface
+ * {@link mirage_siteb_bench_vid.OnFragmentInteractionListener} interface
  * to handle interaction events.
- * Use the {@link mirage_sitea_ct_vid#newInstance} factory method to
+ * Use the {@link mirage_siteb_bench_vid#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class mirage_sitea_ct_vid extends Fragment {
+public class mirage_siteb_bench_vid extends Fragment {
 
     private VideoView videoView;
     private int position = 0;
@@ -39,7 +40,7 @@ public class mirage_sitea_ct_vid extends Fragment {
 
     private OnFragmentInteractionListener mListener;
 
-    public mirage_sitea_ct_vid() {
+    public mirage_siteb_bench_vid() {
         // Required empty public constructor
     }
 
@@ -52,8 +53,8 @@ public class mirage_sitea_ct_vid extends Fragment {
      * @return A new instance of fragment mirage_sitea_stairs_vid.
      */
     // TODO: Rename and change types and number of parameters
-    public static mirage_sitea_ct_vid newInstance(String param1, String param2) {
-        mirage_sitea_ct_vid fragment = new mirage_sitea_ct_vid();
+    public static mirage_siteb_bench_vid newInstance(String param1, String param2) {
+        mirage_siteb_bench_vid fragment = new mirage_siteb_bench_vid();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -62,20 +63,11 @@ public class mirage_sitea_ct_vid extends Fragment {
     }
 
     @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        if (getArguments() != null) {
-            mParam1 = getArguments().getString(ARG_PARAM1);
-            mParam2 = getArguments().getString(ARG_PARAM2);
-        }
-    }
-
-    @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
 
-        View view = inflater.inflate(R.layout.fragment_mirage_sitea_ct_vid, container, false);
+        View view = inflater.inflate(R.layout.fragment_mirage_siteb_bench_vid, container, false);
 
         videoView = (VideoView) view.findViewById(R.id.videoView);
 
@@ -88,7 +80,7 @@ public class mirage_sitea_ct_vid extends Fragment {
         }
 
         try {
-            int id = this.getRawResIdByName("ct_smoke");
+            int id = this.getRawResIdByName("bench_smoke");
             videoView.setVideoURI(Uri.parse("android.resource://" + getActivity().getPackageName() + "/" + id));
         } catch (Exception e) {
             Log.e("Error", e.getMessage());
@@ -148,7 +140,7 @@ public class mirage_sitea_ct_vid extends Fragment {
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
-        if (context instanceof OnFragmentInteractionListener) {
+        if (context instanceof mirage_siteb_bench_vid.OnFragmentInteractionListener) {
             mListener = (OnFragmentInteractionListener) context;
         } else {
             throw new RuntimeException(context.toString()

@@ -7,10 +7,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.example.bisch.csgo_smokes.R;
-import com.example.bisch.csgo_smokes.mirage.PagerAdapter_mirage;
-import com.example.bisch.csgo_smokes.mirage.mirage_mid;
-import com.example.bisch.csgo_smokes.mirage.mirage_siteA;
-import com.example.bisch.csgo_smokes.mirage.mirage_siteB;
+import com.example.bisch.csgo_smokes.mirage.mirage_sites.PagerAdapter_mirage;
+import com.example.bisch.csgo_smokes.mirage.mirage_sites.mirage_mid;
+import com.example.bisch.csgo_smokes.mirage.mirage_sites.mirage_siteA;
+import com.example.bisch.csgo_smokes.mirage.mirage_sites.mirage_siteB;
 
 public class cache extends AppCompatActivity implements mirage_siteA.OnFragmentInteractionListener, mirage_mid.OnFragmentInteractionListener, mirage_siteB.OnFragmentInteractionListener {
 

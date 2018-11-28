@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/ls_mirage"
-    tools:context=".mirage.mirage_siteb_under_balc">
+    tools:context=".mirage.mirage_siteb_under_balc.mirage_siteb_under_balc">
 
     <android.support.design.widget.TabLayout
         android:id="@+id/tablayout"
@@ -19,7 +19,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/overView"
         app:tabIndicatorColor="#ffff00"
-        app:tabBackground="@drawable/tab_style2"
+        app:tabBackground="@drawable/tab_style"
         style="@style/MyCustomTabLayout">
 
     </android.support.design.widget.TabLayout>

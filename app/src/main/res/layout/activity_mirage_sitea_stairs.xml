@@ -19,7 +19,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/overView"
         app:tabIndicatorColor="#ffff00"
-        app:tabBackground="@drawable/tab_style2"
+        app:tabBackground="@drawable/tab_style"
         style="@style/MyCustomTabLayout">
 
     </android.support.design.widget.TabLayout>

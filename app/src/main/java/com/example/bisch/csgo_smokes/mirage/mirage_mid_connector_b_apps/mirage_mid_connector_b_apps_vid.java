@@ -1,4 +1,4 @@
-package com.example.bisch.csgo_smokes.mirage.mirage_mid_cat;
+package com.example.bisch.csgo_smokes.mirage.mirage_mid_connector_b_apps;
 
 import android.content.Context;
 import android.media.MediaPlayer;
@@ -17,12 +17,12 @@ import com.example.bisch.csgo_smokes.R;
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link mirage_mid_cat_vid.OnFragmentInteractionListener} interface
+ * {@link mirage_mid_connector_b_apps_vid.OnFragmentInteractionListener} interface
  * to handle interaction events.
- * Use the {@link mirage_mid_cat_vid#newInstance} factory method to
+ * Use the {@link mirage_mid_connector_b_apps_vid#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class mirage_mid_cat_vid extends Fragment {
+public class mirage_mid_connector_b_apps_vid extends Fragment {
 
     private VideoView videoView;
     private int position = 0;
@@ -37,9 +37,9 @@ public class mirage_mid_cat_vid extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    private mirage_mid_cat_vid.OnFragmentInteractionListener mListener;
+    private mirage_mid_connector_b_apps_vid.OnFragmentInteractionListener mListener;
 
-    public mirage_mid_cat_vid() {
+    public mirage_mid_connector_b_apps_vid() {
         // Required empty public constructor
     }
 
@@ -52,8 +52,8 @@ public class mirage_mid_cat_vid extends Fragment {
      * @return A new instance of fragment mirage_sitea_stairs_vid.
      */
     // TODO: Rename and change types and number of parameters
-    public static mirage_mid_cat_vid newInstance(String param1, String param2) {
-        mirage_mid_cat_vid fragment = new mirage_mid_cat_vid();
+    public static mirage_mid_connector_b_apps_vid newInstance(String param1, String param2) {
+        mirage_mid_connector_b_apps_vid fragment = new mirage_mid_connector_b_apps_vid();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -75,7 +75,7 @@ public class mirage_mid_cat_vid extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
 
-        View view = inflater.inflate(R.layout.fragment_mirage_mid_cat_vid, container, false);
+        View view = inflater.inflate(R.layout.fragment_mirage_mid_connector_b_apps_vid, container, false);
 
         videoView = (VideoView) view.findViewById(R.id.videoView);
 
@@ -88,7 +88,7 @@ public class mirage_mid_cat_vid extends Fragment {
         }
 
         try {
-            int id = this.getRawResIdByName("cat_smoke");
+            int id = this.getRawResIdByName("connector_from_b_apps_smoke");
             videoView.setVideoURI(Uri.parse("android.resource://" + getActivity().getPackageName() + "/" + id));
         } catch (Exception e) {
             Log.e("Error", e.getMessage());
@@ -148,8 +148,8 @@ public class mirage_mid_cat_vid extends Fragment {
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
-        if (context instanceof mirage_mid_cat_vid.OnFragmentInteractionListener) {
-            mListener = (mirage_mid_cat_vid.OnFragmentInteractionListener) context;
+        if (context instanceof mirage_mid_connector_b_apps_vid.OnFragmentInteractionListener) {
+            mListener = (mirage_mid_connector_b_apps_vid.OnFragmentInteractionListener) context;
         } else {
             throw new RuntimeException(context.toString()
                     + " must implement OnFragmentInteractionListener");

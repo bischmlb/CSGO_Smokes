@@ -1,7 +1,6 @@
-package com.example.bisch.csgo_smokes.mirage;
+package com.example.bisch.csgo_smokes.mirage.mirage_siteb_market_window;
 
 import android.content.Context;
-import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -11,20 +10,17 @@ import android.view.ViewGroup;
 import android.widget.Button;
 
 import com.example.bisch.csgo_smokes.R;
-import com.example.bisch.csgo_smokes.mirage.mirage_sitea_con_jun.mirage_sitea_con_jun;
-import com.example.bisch.csgo_smokes.mirage.mirage_sitea_ct.mirage_sitea_ct;
-import com.example.bisch.csgo_smokes.mirage.mirage_sitea_stairs.mirage_sitea_stairs;
-
+import com.example.bisch.csgo_smokes.mirage.mirage_mid_cat.mirage_mid_cat_step2;
 
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link mirage_siteA.OnFragmentInteractionListener} interface
+ * {@link mirage_siteb_market_window_step1.OnFragmentInteractionListener} interface
  * to handle interaction events.
- * Use the {@link mirage_siteA#newInstance} factory method to
+ * Use the {@link mirage_siteb_market_window_step1#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class mirage_siteA extends Fragment {
+public class mirage_siteb_market_window_step1 extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -34,9 +30,9 @@ public class mirage_siteA extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    private OnFragmentInteractionListener mListener;
+    private mirage_siteb_market_window_step1.OnFragmentInteractionListener mListener;
 
-    public mirage_siteA() {
+    public mirage_siteb_market_window_step1() {
         // Required empty public constructor
     }
 
@@ -46,11 +42,11 @@ public class mirage_siteA extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment mirage_siteA.
+     * @return A new instance of fragment mirage_sitea_ct_step1.
      */
     // TODO: Rename and change types and number of parameters
-    public static mirage_siteA newInstance(String param1, String param2) {
-        mirage_siteA fragment = new mirage_siteA();
+    public static mirage_siteb_market_window_step1 newInstance(String param1, String param2) {
+        mirage_siteb_market_window_step1 fragment = new mirage_siteb_market_window_step1();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -71,33 +67,20 @@ public class mirage_siteA extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view = inflater.inflate(R.layout.fragment_mirage_sitea, container, false);
+        View view = inflater.inflate(R.layout.fragment_mirage_siteb_market_window_step1, container, false);
 
-        //Button
-        final Button stairs = (Button) view.findViewById(R.id.btn_stairs);
-        stairs.setOnClickListener(new View.OnClickListener() {
+        final Button btn_step2 = (Button) view.findViewById(R.id.btn_step2);
+
+        btn_step2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getActivity(), mirage_sitea_stairs.class));
-            }
-
-        });
-
-        final Button con_jun = (Button) view.findViewById(R.id.btn_con_jun);
-        con_jun.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                startActivity(new Intent(getActivity(), mirage_sitea_con_jun.class));
+                mirage_mid_cat_step2 step2= new mirage_mid_cat_step2();
+                getActivity().getSupportFragmentManager().beginTransaction()
+                        .replace(R.id.fragmentContainer, step2,"findThisFragment")
+                        .addToBackStack(null)
+                        .commit();
             }
         });
-
-        final Button ct = (Button) view.findViewById(R.id.btn_ct_spawn);
-        ct.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(getActivity(), mirage_sitea_ct.class));
-            }
-        });
-
         return view;
     }
 
@@ -111,8 +94,8 @@ public class mirage_siteA extends Fragment {
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
-        if (context instanceof OnFragmentInteractionListener) {
-            mListener = (OnFragmentInteractionListener) context;
+        if (context instanceof mirage_siteb_market_window_step1.OnFragmentInteractionListener) {
+            mListener = (mirage_siteb_market_window_step1.OnFragmentInteractionListener) context;
         } else {
             throw new RuntimeException(context.toString()
                     + " must implement OnFragmentInteractionListener");

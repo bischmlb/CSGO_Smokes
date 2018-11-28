@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".mirage.mirage_mid_cat.mirage_mid_cat_step1">
+    tools:context=".mirage.mirage_mid_connector_b_apps.mirage_mid_connector_b_apps_step1">
 
     <!-- TODO: Update blank fragment layout -->
 
@@ -27,7 +27,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
         android:fontFamily="@font/gooddp__"
-        android:text="Look for the trash can in         T-spawn and hug the corner between the trash can and the wall."
+        android:text="Find the door to your right before entering apps towards B-site. Walking towards it you should discover a 'secret' corner."
         android:textColor="#ffff00"
         android:textSize="32sp"
         android:textStyle="bold"
@@ -44,7 +44,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
         android:fontFamily="@font/gooddp__"
-        android:text="Turn towards middle when you have stucked yourself to the corner."
+        android:text="Move into the corner until you feel 'stuck', and turn towards middle."
         android:textColor="#ffff00"
         android:textSize="32sp"
         android:textStyle="bold"
@@ -66,7 +66,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/cat_smoke_1" />
+        app:srcCompat="@drawable/connector_from_b_apps_smoke_1" />
 
     <Button
         android:id="@+id/btn_step2"

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".mirage.mirage_mid_connector_b_apps.mirage_mid_connector_b_apps_step2">
+    tools:context=".mirage.mirage_siteb_bench.mirage_siteb_bench_step2">
 
     <!-- TODO: Update blank fragment layout -->
 
@@ -27,7 +27,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
         android:fontFamily="@font/gooddp__"
-        android:text="Use the antenna as a height-measurement and align your crosshair parallel with the tower for the angle."
+        android:text="Use the most-left black object for the angle, and the second black opject under the roof to the right, for height measurement. "
         android:textColor="#ffff00"
         android:textSize="32sp"
         android:textStyle="bold"
@@ -78,7 +78,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/connector_from_b_apps_smoke_2" />
+        app:srcCompat="@drawable/bench_smoke_2" />
 
     <Button
         android:id="@+id/btn_step_video"

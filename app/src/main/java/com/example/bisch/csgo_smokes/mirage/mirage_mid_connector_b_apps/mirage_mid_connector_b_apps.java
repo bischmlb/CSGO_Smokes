@@ -1,7 +1,9 @@
-package com.example.bisch.csgo_smokes.mirage;
+package com.example.bisch.csgo_smokes.mirage.mirage_mid_connector_b_apps;
 
 import android.media.MediaPlayer;
 import android.net.Uri;
+import android.support.design.widget.TabLayout;
+import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -10,7 +12,9 @@ import android.widget.VideoView;
 
 import com.example.bisch.csgo_smokes.R;
 
-public class mirage_mid_connector_b_apps extends AppCompatActivity {
+public class mirage_mid_connector_b_apps
+        extends AppCompatActivity
+        implements  mirage_mid_connector_b_apps_step1.OnFragmentInteractionListener, mirage_mid_connector_b_apps_step2.OnFragmentInteractionListener, mirage_mid_connector_b_apps_vid.OnFragmentInteractionListener{
 
     private VideoView videoView;
     private int position = 0;
@@ -18,71 +22,44 @@ public class mirage_mid_connector_b_apps extends AppCompatActivity {
 
 
 
-    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mirage_mid_connector_b_apps);
 
-        videoView = (VideoView) findViewById(R.id.videoView);
 
-        if(mediaController == null) {
-            mediaController = new MediaController(mirage_mid_connector_b_apps.this);
+        TabLayout tabLayout2 = (TabLayout) findViewById(R.id.tablayout);
+        tabLayout2.addTab(tabLayout2.newTab().setText("Overview "));
+        tabLayout2.addTab(tabLayout2.newTab().setText("Step 1 "));
+        tabLayout2.addTab(tabLayout2.newTab().setText("Step 2 "));
+        tabLayout2.setTabGravity(TabLayout.GRAVITY_FILL);
 
-            mediaController.setAnchorView(videoView);
+        final ViewPager viewPager2 = (ViewPager)findViewById(R.id.pager);
+        final mirage_mid_connector_b_apps_pagerAdapter adapter = new mirage_mid_connector_b_apps_pagerAdapter(getSupportFragmentManager(),tabLayout2.getTabCount());
+        viewPager2.setAdapter(adapter);
+        viewPager2.setOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout2));
 
-            videoView.setMediaController(mediaController);
-        }
-
-        try {//TODO
-            int id = this.getRawResIdByName("connector_from_b_apps_smoke");
-            videoView.setVideoURI(Uri.parse("android.resource://" + getPackageName() + "/" + id));
-        } catch (Exception e) {
-            Log.e("Error", e.getMessage());
-            e.printStackTrace();
-        }
-
-        videoView.requestFocus();
-
-        videoView.setOnPreparedListener(new MediaPlayer.OnPreparedListener() {
+        tabLayout2.setOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
-            public void onPrepared(MediaPlayer mediaPlayer) {
-                videoView.seekTo(position);
-                if(position == 0) {
-                    videoView.start();
-                }
+            public void onTabSelected(TabLayout.Tab tab) {
+                viewPager2.setCurrentItem(tab.getPosition());
+            }
 
-                mediaPlayer.setOnVideoSizeChangedListener(new MediaPlayer.OnVideoSizeChangedListener() {
-                    @Override
-                    public void onVideoSizeChanged(MediaPlayer mediaPlayer, int i, int i1) {
-                        mediaController.setAnchorView(videoView);
-                    }
-                });
+            @Override
+            public void onTabUnselected(TabLayout.Tab tab) {
+
+            }
+
+            @Override
+            public void onTabReselected(TabLayout.Tab tab) {
 
             }
         });
 
-    }
 
-    public int getRawResIdByName(String resName){
-        String pkgName = this.getPackageName();
-
-        int resID = this.getResources().getIdentifier(resName, "raw",pkgName);
-        Log.i("AndroidViewView", "Res Name: " + resName + "==> es ID = " + resID);
-        return resID;
     }
 
     @Override
-    public void onSaveInstanceState(Bundle savedInstanceState){
-        super.onSaveInstanceState(savedInstanceState);
+    public void onFragmentInteraction(Uri uri) {
 
-        savedInstanceState.putInt("CurrentPosition", videoView.getCurrentPosition());
-        videoView.pause();
-    }
-
-    public void onRestoreInsanceState(Bundle savedInstanceState) {
-        super.onRestoreInstanceState(savedInstanceState);
-
-        position = savedInstanceState.getInt("CurrentPosition");
-        videoView.seekTo(position);
     }
 }

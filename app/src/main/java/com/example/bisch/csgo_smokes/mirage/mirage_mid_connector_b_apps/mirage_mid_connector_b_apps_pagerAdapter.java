@@ -1,15 +1,15 @@
-package com.example.bisch.csgo_smokes.mirage.mirage_mid_cat;
+package com.example.bisch.csgo_smokes.mirage.mirage_mid_connector_b_apps;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 
 
-public class mirage_mid_cat_pagerAdapter extends FragmentStatePagerAdapter {
+public class mirage_mid_connector_b_apps_pagerAdapter extends FragmentStatePagerAdapter {
 
     int mNumberOfTabs;
 
-    public mirage_mid_cat_pagerAdapter(FragmentManager fm, int NumberOfTabs) {
+    public mirage_mid_connector_b_apps_pagerAdapter(FragmentManager fm, int NumberOfTabs) {
         super(fm);
         this.mNumberOfTabs = NumberOfTabs;
 
@@ -25,13 +25,13 @@ public class mirage_mid_cat_pagerAdapter extends FragmentStatePagerAdapter {
     public Fragment getItem(int position) {
         switch (position) {
             case 0:
-                mirage_mid_cat_vid vid = new mirage_mid_cat_vid();
+                mirage_mid_connector_b_apps_vid vid = new mirage_mid_connector_b_apps_vid();
                 return vid;
             case 1:
-                mirage_mid_cat_step1 one = new mirage_mid_cat_step1();
+                mirage_mid_connector_b_apps_step1 one = new mirage_mid_connector_b_apps_step1();
                 return one;
             case 2:
-                mirage_mid_cat_step2 two = new mirage_mid_cat_step2();
+                mirage_mid_connector_b_apps_step2 two = new mirage_mid_connector_b_apps_step2();
                 return two;
             default:
                 return null;

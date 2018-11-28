@@ -1,6 +1,6 @@
 
     /* TODO: General:
-    TODO: Find name for app
+    (DONE): Find name for app
     TODO: Launch icon
     TODO: Options menu
     TODO: (Implement comments?)
@@ -29,17 +29,16 @@
     (DONE): (Find new smokes icon for map overlook (maybe) )
     (DONE): con_jun activity
     (DONE): A-site activities
-
-    TODO: Finish mid smokes:
-            (DONE) : mid_cat
+    (DONE): Finish mid smokes TODO (T-spawn smoke window ? )
+    (DONE): B-site smokes
+    (DONE): Change hide positions slider to show positions
+    (DONE): Finish mirage as a base before starting on new maps
 
     TODO: Fix nade-helper-menu
     TODO: Enhance nade-helper layout
-    TODO: Change hide positions slider to show positions
     TODO: Implement switch that makes it possible to hide hard smokes.
     TODO: Easy smoke cloud, hard smoke cloud - image.
 
-    TODO: Finish mirage as a base before starting on new maps
     */
 
 

@@ -17,10 +17,19 @@ import android.widget.Toast;
 
 import com.example.bisch.csgo_smokes.R;
 import com.example.bisch.csgo_smokes.mirage.mirage_mid_cat.mirage_mid_cat;
+import com.example.bisch.csgo_smokes.mirage.mirage_mid_connector_b_apps.mirage_mid_connector_b_apps;
 import com.example.bisch.csgo_smokes.mirage.mirage_mid_window_b_apps.mirage_mid_window_b_apps;
 import com.example.bisch.csgo_smokes.mirage.mirage_sitea_con_jun.mirage_sitea_con_jun;
 import com.example.bisch.csgo_smokes.mirage.mirage_sitea_ct.mirage_sitea_ct;
 import com.example.bisch.csgo_smokes.mirage.mirage_sitea_stairs.mirage_sitea_stairs;
+import com.example.bisch.csgo_smokes.mirage.mirage_siteb_bench.mirage_siteb_bench;
+import com.example.bisch.csgo_smokes.mirage.mirage_siteb_market_window.mirage_siteb_market_window;
+import com.example.bisch.csgo_smokes.mirage.mirage_siteb_short_cat.mirage_siteb_short_cat;
+import com.example.bisch.csgo_smokes.mirage.mirage_siteb_under_balc.mirage_siteb_under_balc;
+import com.example.bisch.csgo_smokes.mirage.mirage_sites.PagerAdapter_mirage;
+import com.example.bisch.csgo_smokes.mirage.mirage_sites.mirage_mid;
+import com.example.bisch.csgo_smokes.mirage.mirage_sites.mirage_siteA;
+import com.example.bisch.csgo_smokes.mirage.mirage_sites.mirage_siteB;
 
 public class mirage
         extends AppCompatActivity
