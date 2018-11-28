@@ -17,12 +17,11 @@ public class mirage_mid_window_t_spawn extends AppCompatActivity {
     private MediaController mediaController;
 
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mirage_mid_window_t_spawn);
-
+/*
         videoView = (VideoView) findViewById(R.id.videoView);
 
         if(mediaController == null) {
@@ -70,7 +69,8 @@ public class mirage_mid_window_t_spawn extends AppCompatActivity {
         Log.i("AndroidViewView", "Res Name: " + resName + "==> es ID = " + resID);
         return resID;
     }
-
+    */
+/*
     @Override
     public void onSaveInstanceState(Bundle savedInstanceState){
         super.onSaveInstanceState(savedInstanceState);
@@ -84,5 +84,7 @@ public class mirage_mid_window_t_spawn extends AppCompatActivity {
 
         position = savedInstanceState.getInt("CurrentPosition");
         videoView.seekTo(position);
+    }
+    */
     }
 }

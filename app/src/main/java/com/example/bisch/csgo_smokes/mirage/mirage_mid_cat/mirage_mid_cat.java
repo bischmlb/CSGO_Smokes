@@ -19,7 +19,7 @@ public class mirage_mid_cat
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_mirage_sitea_ct);
+        setContentView(R.layout.activity_mirage_mid_cat);
 
 
         TabLayout tabLayout2 = (TabLayout) findViewById(R.id.tablayout);

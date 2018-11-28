@@ -1,6 +1,3 @@
-package com.example.bisch.csgo_smokes;
-
-public class TODO {
 
     /* TODO: General:
     TODO: Find name for app
@@ -35,12 +32,14 @@ public class TODO {
 
     TODO: Finish mid smokes:
             (DONE) : mid_cat
-            
+
     TODO: Fix nade-helper-menu
     TODO: Enhance nade-helper layout
     TODO: Change hide positions slider to show positions
+    TODO: Implement switch that makes it possible to hide hard smokes.
+    TODO: Easy smoke cloud, hard smoke cloud - image.
 
     TODO: Finish mirage as a base before starting on new maps
     */
 
-}
+

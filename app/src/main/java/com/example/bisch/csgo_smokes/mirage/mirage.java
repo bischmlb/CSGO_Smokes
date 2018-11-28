@@ -17,6 +17,7 @@ import android.widget.Toast;
 
 import com.example.bisch.csgo_smokes.R;
 import com.example.bisch.csgo_smokes.mirage.mirage_mid_cat.mirage_mid_cat;
+import com.example.bisch.csgo_smokes.mirage.mirage_mid_window_b_apps.mirage_mid_window_b_apps;
 import com.example.bisch.csgo_smokes.mirage.mirage_sitea_con_jun.mirage_sitea_con_jun;
 import com.example.bisch.csgo_smokes.mirage.mirage_sitea_ct.mirage_sitea_ct;
 import com.example.bisch.csgo_smokes.mirage.mirage_sitea_stairs.mirage_sitea_stairs;
@@ -126,7 +127,7 @@ public class mirage
         window_tspawn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(mirage.this, mirage_mid_window_t_spawn.class));
+                startActivity(new Intent(mirage.this, mirage_mid_window_b_apps.class));
             }
         });
 

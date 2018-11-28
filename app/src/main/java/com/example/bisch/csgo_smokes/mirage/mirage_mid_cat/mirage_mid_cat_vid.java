@@ -100,6 +100,7 @@ public class mirage_mid_cat_vid extends Fragment {
         videoView.setOnPreparedListener(new MediaPlayer.OnPreparedListener() {
             @Override
             public void onPrepared(MediaPlayer mediaPlayer) {
+                mediaController.setAlpha(0.2f);
                 videoView.seekTo(position);
                 if(position == 0) {
                     videoView.start();

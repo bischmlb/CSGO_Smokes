@@ -12,6 +12,7 @@ import android.widget.Button;
 
 import com.example.bisch.csgo_smokes.R;
 import com.example.bisch.csgo_smokes.mirage.mirage_mid_cat.mirage_mid_cat;
+import com.example.bisch.csgo_smokes.mirage.mirage_mid_window_b_apps.mirage_mid_window_b_apps;
 
 
 /**
