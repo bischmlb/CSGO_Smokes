@@ -1,6 +1,5 @@
 package com.example.bisch.csgo_smokes.mirage;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.content.res.ColorStateList;
 import android.graphics.Color;
@@ -11,13 +10,14 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.SwitchCompat;
 import android.view.View;
-import android.view.Window;
 import android.widget.Button;
 import android.widget.CompoundButton;
 import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.example.bisch.csgo_smokes.R;
+import com.example.bisch.csgo_smokes.mirage.mirage_mid_cat.mirage_mid_cat;
+import com.example.bisch.csgo_smokes.mirage.mirage_sitea_con_jun.mirage_sitea_con_jun;
 import com.example.bisch.csgo_smokes.mirage.mirage_sitea_ct.mirage_sitea_ct;
 import com.example.bisch.csgo_smokes.mirage.mirage_sitea_stairs.mirage_sitea_stairs;
 
@@ -46,11 +46,11 @@ public class mirage
             @Override
             public void onCheckedChanged(CompoundButton compoundButton, boolean switchState) {
                 if(switchState){
-                    IV.setImageResource(R.drawable.mirage_ov);
-                    Toast.makeText(mirage.this, "Positions are now hidden", Toast.LENGTH_SHORT).show();
-                }else{
                     IV.setImageResource(R.drawable.mirage_ov2_1);
                     Toast.makeText(mirage.this, "Positions are now shown", Toast.LENGTH_SHORT).show();
+                }else{
+                    IV.setImageResource(R.drawable.mirage_ov);
+                    Toast.makeText(mirage.this, "Positions are now hidden", Toast.LENGTH_SHORT).show();
                 }
 
             }
@@ -62,11 +62,11 @@ public class mirage
                 if (b) {
                     viewPager.setVisibility(View.VISIBLE);
                     tabLayout.setVisibility(View.VISIBLE);
-                    Toast.makeText(mirage.this, "The helper-menu is now hidden", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(mirage.this, "The helper-menu is now shown", Toast.LENGTH_SHORT).show();
                 } else {
                     viewPager.setVisibility(View.GONE);
                     tabLayout.setVisibility(View.GONE);
-                    Toast.makeText(mirage.this, "The helper-menu is now shown", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(mirage.this, "The helper-menu is now hidden", Toast.LENGTH_SHORT).show();
                 }
             }
         });

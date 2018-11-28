@@ -27,74 +27,74 @@
         android:id="@+id/overView"
         android:layout_width="match_parent"
         android:layout_height="375dp"
-        android:layout_marginTop="100dp"
-
+        android:background="#1d000000"
+        android:layout_marginTop="148dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/switch1"
+        app:layout_constraintTop_toTopOf="@+id/textView2"
         app:srcCompat="@drawable/mirage_ov" />
 
 
     <Button
         android:id="@+id/btn_stairs"
-        android:layout_width="81dp"
-        android:layout_height="50dp"
+        android:layout_width="51dp"
+        android:layout_height="35dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
-        android:background="@drawable/cloud9"
+        android:background="@drawable/cloud91"
         android:fontFamily="@font/gooddp__"
         android:textSize="40sp"
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="@+id/overView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintHorizontal_bias="0.543"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/overView"
-        app:layout_constraintVertical_bias="0.716" />
+        app:layout_constraintVertical_bias="0.714" />
 
     <Button
         android:id="@+id/btn_con_jun"
-        android:layout_width="81dp"
-        android:layout_height="50dp"
+        android:layout_width="51dp"
+        android:layout_height="35dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
-        android:background="@drawable/cloud9"
+        android:background="@drawable/cloud91"
         android:fontFamily="@font/gooddp__"
         android:textSize="40sp"
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="@+id/overView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.464"
+        app:layout_constraintHorizontal_bias="0.456"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/overView"
-        app:layout_constraintVertical_bias="0.683" />
+        app:layout_constraintVertical_bias="0.685" />
 
     <Button
         android:id="@+id/btn_ct_spawn"
-        android:layout_width="81dp"
-        android:layout_height="50dp"
+        android:layout_width="51dp"
+        android:layout_height="35dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:background="@drawable/cloud9"
+        android:background="@drawable/cloud91"
         android:fontFamily="@font/gooddp__"
         android:textSize="40sp"
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="@+id/overView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.442"
+        app:layout_constraintHorizontal_bias="0.456"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/overView"
-        app:layout_constraintVertical_bias="0.974" />
+        app:layout_constraintVertical_bias="0.954" />
 
     <Button
         android:id="@+id/btn_window"
-        android:layout_width="81dp"
-        android:layout_height="50dp"
+        android:layout_width="51dp"
+        android:layout_height="35dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
-        android:background="@drawable/cloud9"
+        android:background="@drawable/cloud91"
         android:fontFamily="@font/gooddp__"
         android:textSize="40sp"
         android:textStyle="bold|italic"
@@ -107,11 +107,11 @@
 
     <Button
         android:id="@+id/btn_cat"
-        android:layout_width="81dp"
-        android:layout_height="50dp"
+        android:layout_width="51dp"
+        android:layout_height="35dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
-        android:background="@drawable/cloud9"
+        android:background="@drawable/cloud91"
         android:fontFamily="@font/gooddp__"
         android:textSize="40sp"
         android:textStyle="bold|italic"
@@ -124,13 +124,13 @@
 
     <Button
         android:id="@+id/btn_connector"
-        android:layout_width="81dp"
-        android:layout_height="50dp"
+        android:layout_width="51dp"
+        android:layout_height="35dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:background="@drawable/cloud9"
+        android:background="@drawable/cloud91"
         android:fontFamily="@font/gooddp__"
         android:textSize="40sp"
         android:textStyle="bold|italic"
@@ -142,12 +142,12 @@
 
     <Button
         android:id="@+id/btn_short_cat"
-        android:layout_width="81dp"
-        android:layout_height="50dp"
+        android:layout_width="51dp"
+        android:layout_height="35dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:background="@drawable/cloud9"
+        android:background="@drawable/cloud91"
         android:fontFamily="@font/gooddp__"
         android:textSize="40sp"
         android:textStyle="bold|italic"
@@ -160,10 +160,10 @@
 
     <Button
         android:id="@+id/btn_bench"
-        android:layout_width="81dp"
-        android:layout_height="50dp"
+        android:layout_width="51dp"
+        android:layout_height="35dp"
         android:layout_marginEnd="340dp"
-        android:background="@drawable/cloud9"
+        android:background="@drawable/cloud91"
         android:fontFamily="@font/gooddp__"
         android:textSize="40sp"
         android:textStyle="bold|italic"
@@ -174,28 +174,11 @@
 
     <Button
         android:id="@+id/btn_under_balc"
-        android:layout_width="81dp"
-        android:layout_height="50dp"
+        android:layout_width="51dp"
+        android:layout_height="35dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
-        android:background="@drawable/cloud9"
-        android:fontFamily="@font/gooddp__"
-        android:textSize="40sp"
-        android:textStyle="bold|italic"
-        app:layout_constraintBottom_toBottomOf="@+id/overView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.092"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/overView"
-        app:layout_constraintVertical_bias="0.067" />
-
-    <Button
-        android:id="@+id/btn_market_window"
-        android:layout_width="81dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
-        android:background="@drawable/cloud9"
+        android:background="@drawable/cloud91"
         android:fontFamily="@font/gooddp__"
         android:textSize="40sp"
         android:textStyle="bold|italic"
@@ -204,7 +187,24 @@
         app:layout_constraintHorizontal_bias="0.127"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/overView"
-        app:layout_constraintVertical_bias="0.243" />
+        app:layout_constraintVertical_bias="0.076" />
+
+    <Button
+        android:id="@+id/btn_market_window"
+        android:layout_width="51dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/cloud91"
+        android:fontFamily="@font/gooddp__"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="@+id/overView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.162"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/overView"
+        app:layout_constraintVertical_bias="0.244" />
 
 
     <android.support.design.widget.TabLayout
@@ -238,26 +238,23 @@
         android:id="@+id/switch1"
         android:layout_width="165dp"
         android:layout_height="0dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="244dp"
         android:background="#1d000000"
-        android:checked="true"
+        android:checked="false"
         android:fontFamily="@font/gooddp__"
-        android:text="Hide Positions: "
+        android:text="Show Positions: "
         android:textOff="Off"
         android:textOn="On"
         android:textSize="20dp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/overView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
         app:showText="true"
         app:thumbTint="#464646" />
 
     <android.support.v7.widget.SwitchCompat
         android:id="@+id/switch2"
         android:layout_width="165dp"
-        android:layout_height="0dp"
-        android:layout_marginEnd="244dp"
+        android:layout_height="6dp"
         android:background="#1d000000"
         android:checked="false"
         android:fontFamily="@font/gooddp__"
@@ -266,8 +263,8 @@
         android:textOn="On"
         android:textSize="20dp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/switch1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
         app:showText="true"
         app:thumbTint="#464646" />
 

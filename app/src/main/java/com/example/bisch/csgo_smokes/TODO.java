@@ -30,8 +30,9 @@ public class TODO {
     (DONE): // NO: Tips for how the regarding smoke can be used in different situations?
     (DONE): Finish mirage_stairs smoke
     (DONE): (Find new smokes icon for map overlook (maybe) )
+    (DONE): con_jun activity
+    (DONE): A-site activities
 
-    TODO: con_jun activity
     TODO: Fix nade-helper-menu
     TODO: Change hide positions slider to show positions
 

@@ -62,21 +62,6 @@ public class mirage_sitea_stairs
 
 
     @Override
-    public void onSaveInstanceState(Bundle savedInstanceState){
-        super.onSaveInstanceState(savedInstanceState);
-
-        savedInstanceState.putInt("CurrentPosition", videoView.getCurrentPosition());
-        videoView.pause();
-    }
-
-    public void onRestoreInsanceState(Bundle savedInstanceState) {
-        super.onRestoreInstanceState(savedInstanceState);
-
-        position = savedInstanceState.getInt("CurrentPosition");
-        videoView.seekTo(position);
-    }
-
-    @Override
     public void onFragmentInteraction(Uri uri) {
 
     }

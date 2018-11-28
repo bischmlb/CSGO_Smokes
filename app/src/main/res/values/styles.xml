@@ -27,6 +27,7 @@
         <item name="tabTextAppearance">@style/MyCustomTabTextAppearance</item>
         <item name="tabSelectedTextColor">#ffff00</item>
     </style>
+
     <style name="MyCustomTabTextAppearance" parent="TextAppearance.Design.Tab">
         <item name="android:textSize">30sp</item>
         <item name="android:textStyle">bold</item>
@@ -35,6 +36,9 @@
         <item name="textAllCaps">false</item>
     </style>
 
-    
+    <style name="AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
 
 </resources>

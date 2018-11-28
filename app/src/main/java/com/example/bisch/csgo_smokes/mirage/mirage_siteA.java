@@ -11,6 +11,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 
 import com.example.bisch.csgo_smokes.R;
+import com.example.bisch.csgo_smokes.mirage.mirage_sitea_con_jun.mirage_sitea_con_jun;
 import com.example.bisch.csgo_smokes.mirage.mirage_sitea_ct.mirage_sitea_ct;
 import com.example.bisch.csgo_smokes.mirage.mirage_sitea_stairs.mirage_sitea_stairs;
 
