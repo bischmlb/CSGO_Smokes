@@ -75,7 +75,7 @@ public class mirage_mid_cat_vid extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
 
-        View view = inflater.inflate(R.layout.fragment_mirage_sitea_con_jun_vid, container, false);
+        View view = inflater.inflate(R.layout.fragment_mirage_mid_cat_vid, container, false);
 
         videoView = (VideoView) view.findViewById(R.id.videoView);
 

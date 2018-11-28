@@ -33,7 +33,11 @@ public class TODO {
     (DONE): con_jun activity
     (DONE): A-site activities
 
+    TODO: Finish mid smokes:
+            (DONE) : mid_cat
+            
     TODO: Fix nade-helper-menu
+    TODO: Enhance nade-helper layout
     TODO: Change hide positions slider to show positions
 
     TODO: Finish mirage as a base before starting on new maps

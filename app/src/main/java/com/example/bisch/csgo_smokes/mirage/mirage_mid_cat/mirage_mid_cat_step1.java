@@ -66,7 +66,7 @@ public class mirage_mid_cat_step1 extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view = inflater.inflate(R.layout.fragment_mirage_sitea_con_jun_step1, container, false);
+        View view = inflater.inflate(R.layout.fragment_mirage_mid_cat_step1, container, false);
 
         final Button btn_step2 = (Button) view.findViewById(R.id.btn_step2);
 
