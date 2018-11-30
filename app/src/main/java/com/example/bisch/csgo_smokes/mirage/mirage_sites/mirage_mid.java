@@ -14,7 +14,7 @@ import com.example.bisch.csgo_smokes.R;
 import com.example.bisch.csgo_smokes.mirage.mirage_mid_cat.mirage_mid_cat;
 import com.example.bisch.csgo_smokes.mirage.mirage_mid_connector_b_apps.mirage_mid_connector_b_apps;
 import com.example.bisch.csgo_smokes.mirage.mirage_mid_window_b_apps.mirage_mid_window_b_apps;
-import com.example.bisch.csgo_smokes.mirage.mirage_mid_window_t_spawn;
+import com.example.bisch.csgo_smokes.mirage.mirage_mid_window_t_spawn.mirage_mid_window_t_spawn;
 
 
 /**

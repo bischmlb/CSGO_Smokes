@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/ls_mirage"
-    tools:context=".mirage.mirage_mid_window_t_spawn">
+    tools:context=".mirage.mirage_mid_window_t_spawn.mirage_mid_window_t_spawn">
 
     <android.support.design.widget.TabLayout
         android:id="@+id/tablayout"

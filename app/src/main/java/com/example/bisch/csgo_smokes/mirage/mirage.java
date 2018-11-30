@@ -19,6 +19,7 @@ import com.example.bisch.csgo_smokes.R;
 import com.example.bisch.csgo_smokes.mirage.mirage_mid_cat.mirage_mid_cat;
 import com.example.bisch.csgo_smokes.mirage.mirage_mid_connector_b_apps.mirage_mid_connector_b_apps;
 import com.example.bisch.csgo_smokes.mirage.mirage_mid_window_b_apps.mirage_mid_window_b_apps;
+import com.example.bisch.csgo_smokes.mirage.mirage_mid_window_t_spawn.mirage_mid_window_t_spawn;
 import com.example.bisch.csgo_smokes.mirage.mirage_sitea_con_jun.mirage_sitea_con_jun;
 import com.example.bisch.csgo_smokes.mirage.mirage_sitea_ct.mirage_sitea_ct;
 import com.example.bisch.csgo_smokes.mirage.mirage_sitea_stairs.mirage_sitea_stairs;
@@ -132,11 +133,19 @@ public class mirage
             }
         });
 
+        final Button window_b_apps = (Button) findViewById(R.id.btn_window_b_apps);
+        window_b_apps.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(mirage.this, mirage_mid_window_b_apps.class));
+            }
+        });
+
         final Button window_tspawn = (Button) findViewById(R.id.btn_window);
         window_tspawn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(mirage.this, mirage_mid_window_b_apps.class));
+                startActivity(new Intent(mirage.this, mirage_mid_window_t_spawn.class));
             }
         });
 

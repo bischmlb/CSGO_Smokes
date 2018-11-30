@@ -14,12 +14,11 @@ import com.example.bisch.csgo_smokes.R;
 
 public class mirage_mid_window_b_apps
         extends AppCompatActivity
-        implements mirage_mid_window_b_apps_step1.OnFragmentInteractionListener, mirage_mid_window_b_apps_step2.OnFragmentInteractionListener, mirage_mid_window_b_apps_vid.OnFragmentInteractionListener{
+        implements mirage_mid_window_b_apps_step1.OnFragmentInteractionListener, mirage_mid_window_b_apps_step2.OnFragmentInteractionListener, mirage_mid_window_b_apps_vid.OnFragmentInteractionListener {
 
 
 
-
-    protected void onCreate(Bundle savedInstanceState) {
+        protected void onCreate (Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mirage_mid_window_b_apps);
 
@@ -30,8 +29,8 @@ public class mirage_mid_window_b_apps
         tabLayout2.addTab(tabLayout2.newTab().setText("Step 2 "));
         tabLayout2.setTabGravity(TabLayout.GRAVITY_FILL);
 
-        final ViewPager viewPager2 = (ViewPager)findViewById(R.id.pager);
-        final mirage_mid_window_b_apps_pagerAdapter adapter = new mirage_mid_window_b_apps_pagerAdapter(getSupportFragmentManager(),tabLayout2.getTabCount());
+        final ViewPager viewPager2 = (ViewPager) findViewById(R.id.pager);
+        final mirage_mid_window_b_apps_pagerAdapter adapter = new mirage_mid_window_b_apps_pagerAdapter(getSupportFragmentManager(), tabLayout2.getTabCount());
         viewPager2.setAdapter(adapter);
         viewPager2.setOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout2));
 
@@ -54,8 +53,8 @@ public class mirage_mid_window_b_apps
 
 
     }
-    @Override
-    public void onFragmentInteraction(Uri uri) {
+        @Override
+        public void onFragmentInteraction (Uri uri){
 
     }
-}
+    }

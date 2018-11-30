@@ -38,6 +38,8 @@
     TODO: Enhance nade-helper layout
     TODO: Implement switch that makes it possible to hide hard smokes.
     TODO: Easy smoke cloud, hard smoke cloud - image.
+    TODO: Tip of the day?
+    TODO: Better color for tipframes on activities
 
     */
 

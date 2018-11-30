@@ -41,7 +41,7 @@
             android:label="A: CT-Spawn"/>
         <activity android:name=".mirage.mirage_mid_cat.mirage_mid_cat"
             android:label="Mid: Catwalk/Short "/>
-        <activity android:name=".mirage.mirage_mid_window_t_spawn"
+        <activity android:name=".mirage.mirage_mid_window_t_spawn.mirage_mid_window_t_spawn"
             android:label="Mid: Window (T-Spawn)"/>
         <activity android:name=".mirage.mirage_mid_window_b_apps.mirage_mid_window_b_apps"
             android:label="Mid: Window (B Appartments)"/>
