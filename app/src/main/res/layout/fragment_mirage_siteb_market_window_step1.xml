@@ -12,7 +12,6 @@
         android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:alpha="0.7"
         android:background="#94000000"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"

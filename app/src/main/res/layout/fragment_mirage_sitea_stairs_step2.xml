@@ -13,7 +13,6 @@ tools:context=".mirage.mirage_sitea_stairs.mirage_sitea_stairs_step2">
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#94000000"
-    android:alpha="0.7"
     android:textStyle="bold"
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintHorizontal_bias="0.0"

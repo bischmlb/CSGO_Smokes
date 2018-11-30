@@ -1,5 +1,6 @@
 package com.example.bisch.csgo_smokes;
 
+import android.app.ActivityOptions;
 import android.content.Intent;
 import android.graphics.Paint;
 import android.os.Bundle;
@@ -57,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
         mirageBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, mirage.class));
+                startActivity(new Intent(MainActivity.this, mirage.class), ActivityOptions.makeSceneTransitionAnimation(MainActivity.this).toBundle());
             }
         });
         cacheBtn.setOnClickListener(new View.OnClickListener() {

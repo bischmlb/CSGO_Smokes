@@ -1,5 +1,6 @@
 package com.example.bisch.csgo_smokes.mirage;
 
+import android.app.ActivityOptions;
 import android.content.Intent;
 import android.content.res.ColorStateList;
 import android.graphics.Color;
@@ -65,7 +66,7 @@ public class mirage
         stairs.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(mirage.this, mirage_sitea_stairs.class));
+                startActivity(new Intent(mirage.this, mirage_sitea_stairs.class), ActivityOptions.makeSceneTransitionAnimation(mirage.this).toBundle());
             }
 
         });
@@ -73,7 +74,7 @@ public class mirage
         final Button con_jun = (Button) findViewById(R.id.btn_con_jun);
         con_jun.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                startActivity(new Intent(mirage.this, mirage_sitea_con_jun.class));
+                startActivity(new Intent(mirage.this, mirage_sitea_con_jun.class), ActivityOptions.makeSceneTransitionAnimation(mirage.this).toBundle());
             }
         });
 
@@ -81,7 +82,7 @@ public class mirage
         ct.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(mirage.this, mirage_sitea_ct.class));
+                startActivity(new Intent(mirage.this, mirage_sitea_ct.class), ActivityOptions.makeSceneTransitionAnimation(mirage.this).toBundle());
             }
         });
 
@@ -89,14 +90,14 @@ public class mirage
         catSmoke.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(mirage.this, mirage_mid_cat.class));
+                startActivity(new Intent(mirage.this, mirage_mid_cat.class), ActivityOptions.makeSceneTransitionAnimation(mirage.this).toBundle());
             }
         });
         final Button window_tspawn = (Button) findViewById(R.id.btn_window);
         window_tspawn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(mirage.this, mirage_mid_window_t_spawn.class));
+                startActivity(new Intent(mirage.this, mirage_mid_window_t_spawn.class), ActivityOptions.makeSceneTransitionAnimation(mirage.this).toBundle());
             }
         });
 
@@ -104,7 +105,7 @@ public class mirage
         window_b_apps.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(mirage.this, mirage_mid_window_b_apps.class));
+                startActivity(new Intent(mirage.this, mirage_mid_window_b_apps.class), ActivityOptions.makeSceneTransitionAnimation(mirage.this).toBundle());
             }
         });
 
@@ -113,7 +114,7 @@ public class mirage
         connector_b_apps.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(mirage.this, mirage_mid_connector_b_apps.class));
+                startActivity(new Intent(mirage.this, mirage_mid_connector_b_apps.class), ActivityOptions.makeSceneTransitionAnimation(mirage.this).toBundle());
             }
         });
 
@@ -121,7 +122,7 @@ public class mirage
         bench.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(mirage.this, mirage_siteb_bench.class));
+                startActivity(new Intent(mirage.this, mirage_siteb_bench.class), ActivityOptions.makeSceneTransitionAnimation(mirage.this).toBundle());
             }
         });
 
@@ -129,7 +130,7 @@ public class mirage
         market_window.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(mirage.this, mirage_siteb_market_window.class));
+                startActivity(new Intent(mirage.this, mirage_siteb_market_window.class), ActivityOptions.makeSceneTransitionAnimation(mirage.this).toBundle());
             }
         });
 
@@ -137,7 +138,7 @@ public class mirage
         under_balc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(mirage.this, mirage_siteb_under_balc.class));
+                startActivity(new Intent(mirage.this, mirage_siteb_under_balc.class), ActivityOptions.makeSceneTransitionAnimation(mirage.this).toBundle());
             }
         });
 
@@ -145,7 +146,7 @@ public class mirage
         short_cat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(mirage.this, mirage_siteb_short_cat.class));
+                startActivity(new Intent(mirage.this, mirage_siteb_short_cat.class), ActivityOptions.makeSceneTransitionAnimation(mirage.this).toBundle());
             }
         });
 
