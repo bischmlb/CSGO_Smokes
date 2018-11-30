@@ -33,12 +33,12 @@
     (DONE): B-site smokes
     (DONE): Change hide positions slider to show positions
     (DONE): Finish mirage as a base before starting on new maps
+    (DONE): Implement switch that makes it possible to hide hard smokes.
+    (DONE): Tip of the day?
 
     TODO: Fix nade-helper-menu
     TODO: Enhance nade-helper layout
-    TODO: Implement switch that makes it possible to hide hard smokes.
     TODO: Easy smoke cloud, hard smoke cloud - image.
-    TODO: Tip of the day?
     TODO: Better color for tipframes on activities
 
     */

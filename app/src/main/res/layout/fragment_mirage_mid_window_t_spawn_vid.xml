@@ -139,7 +139,7 @@
         android:layout_height="35dp"
         android:background="#bf000000"
         android:fontFamily="@font/gooddp__"
-        android:text=" Hold a (run left) &amp; throw once you reach balcony"
+        android:text=" Hold a (run left) &amp; throw once your x-hair reaches balcony"
         android:textColor="#ffff00"
         android:textSize="16sp"
         android:textStyle="bold"

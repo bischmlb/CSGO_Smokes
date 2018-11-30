@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/ls_mirage"
+    android:background="@drawable/miragepaint"
     tools:context=".mirage.mirage_siteb_short_cat.mirage_siteb_short_cat">
 
     <android.support.design.widget.TabLayout

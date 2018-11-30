@@ -55,6 +55,7 @@ public class mirage
 
 
 
+
         tabLayout.addTab(tabLayout.newTab().setText("A"));
         tabLayout.addTab(tabLayout.newTab().setText("MID"));
         tabLayout.addTab(tabLayout.newTab().setText("B"));

@@ -8,12 +8,14 @@ import android.transition.Explode;
 import android.view.View;
 import android.view.Window;
 import android.widget.Button;
+import android.widget.TextView;
 
 import com.example.bisch.csgo_smokes.cache.cache;
 import com.example.bisch.csgo_smokes.dust2.dust2;
 import com.example.bisch.csgo_smokes.mirage.mirage;
 
 public class MainActivity extends AppCompatActivity {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,6 +38,13 @@ public class MainActivity extends AppCompatActivity {
         nukeBtn.setPaintFlags(dust2Btn.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG);
         infernoBtn.setPaintFlags(dust2Btn.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG);
         cbbleBtn.setPaintFlags(dust2Btn.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG);
+
+        tips_quotes tips = new tips_quotes();
+
+        final TextView tipsText = (TextView) findViewById(R.id.textView25);
+
+        tipsText.setText(tips.getTip(tips.tipsS));
+
 
 
 
