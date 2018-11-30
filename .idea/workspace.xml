@@ -21,13 +21,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbb50020-becf-45e2-87c4-b0346732a31d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/bisch/csgo_smokes/mirage/mirage_mid_window_t_spawn/mirage_mid_window_t_spawn_pagerAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/bisch/csgo_smokes/mirage/mirage_mid_window_t_spawn/mirage_mid_window_t_spawn_step1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/bisch/csgo_smokes/mirage/mirage_mid_window_t_spawn/mirage_mid_window_t_spawn_step2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/bisch/csgo_smokes/mirage/mirage_mid_window_t_spawn/mirage_mid_window_t_spawn_vid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_mirage_mid_window_t_spawn_step1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_mirage_mid_window_t_spawn_step2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_mirage_mid_window_t_spawn_vid.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/classAnalysis.bin" afterDir="false" />
@@ -37,23 +30,10 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/bisch/csgo_smokes/mirage/mirage.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/bisch/csgo_smokes/mirage/mirage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/bisch/csgo_smokes/mirage/mirage_mid_window_b_apps/mirage_mid_window_b_apps.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/bisch/csgo_smokes/mirage/mirage_mid_window_b_apps/mirage_mid_window_b_apps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/bisch/csgo_smokes/mirage/mirage_mid_window_t_spawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/bisch/csgo_smokes/mirage/mirage_mid_window_t_spawn/mirage_mid_window_t_spawn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/bisch/csgo_smokes/mirage/mirage_sites/mirage_mid.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/bisch/csgo_smokes/mirage/mirage_sites/mirage_mid.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_mirage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_mirage.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_mirage_mid_window_t_spawn.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_mirage_mid_window_t_spawn.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_mirage_mid_cat_vid.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_mirage_mid_cat_vid.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_mirage_mid_connector_b_apps_vid.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_mirage_mid_connector_b_apps_vid.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_mirage_mid_window_b_apps_vid.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_mirage_mid_window_b_apps_vid.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_mirage_sitea_con_jun_vid.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_mirage_sitea_con_jun_vid.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_mirage_sitea_ct_vid.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_mirage_sitea_ct_vid.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_mirage_sitea_stairs_vid.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_mirage_sitea_stairs_vid.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_mirage_siteb_bench_vid.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_mirage_siteb_bench_vid.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_mirage_siteb_market_window_vid.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_mirage_siteb_market_window_vid.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_mirage_siteb_short_cat_vid.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_mirage_siteb_short_cat_vid.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_mirage_siteb_under_balc_vid.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_mirage_siteb_under_balc_vid.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_mirage_mid_window_t_spawn_vid.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_mirage_mid_window_t_spawn_vid.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_mirage_siteb.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_mirage_siteb.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -126,38 +106,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fragment_mirage_siteb_bench_vid.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_mirage_siteb_bench_vid.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
+      <file leaf-file-name="TODO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/bisch/csgo_smokes/TODO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="111" column="4" selection-start-line="111" selection-start-column="4" selection-end-line="111" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fragment_mirage_sitea_ct_vid.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_mirage_sitea_ct_vid.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="94" column="4" selection-start-line="94" selection-start-column="4" selection-end-line="94" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fragment_mirage_siteb_market_window_vid.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_mirage_siteb_market_window_vid.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="94" column="4" selection-start-line="94" selection-start-column="4" selection-end-line="94" selection-end-column="4" />
+            <state relative-caret-position="204">
+              <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -180,20 +133,71 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="243" column="8" lean-forward="true" selection-start-line="243" selection-start-column="8" selection-end-line="243" selection-end-column="38" />
+            <state relative-caret-position="613">
+              <caret line="286" selection-start-line="286" selection-end-line="286" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fragment_mirage_mid_cat_vid.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mirage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/bisch/csgo_smokes/mirage/mirage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="53" selection-start-line="53" selection-end-line="53" />
+              <folding>
+                <element signature="e#8122#8818#0" expanded="true" />
+                <element signature="e#8817#8818#0" expanded="true" />
+                <element signature="e#8862#9420#0" expanded="true" />
+                <element signature="e#9419#9420#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_mirage_mid_window_t_spawn.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_mirage_mid_window_t_spawn.xml">
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fragment_mirage_mid_window_t_spawn_vid.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_mirage_mid_window_t_spawn_vid.xml">
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="283">
+              <caret line="114" column="4" selection-start-line="114" selection-start-column="4" selection-end-line="114" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fragment_mirage_mid_cat_vid.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_mirage_mid_cat_vid.xml">
           <provider editor-type-id="android-designer2">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="105" column="32" lean-forward="true" selection-start-line="105" selection-start-column="32" selection-end-line="105" selection-end-column="32" />
+            <state relative-caret-position="351">
+              <caret line="44" column="39" selection-start-line="44" selection-start-column="39" selection-end-line="44" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fragment_mirage_siteb.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_mirage_siteb.xml">
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="55" column="32" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -205,30 +209,6 @@
           </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="817">
-              <caret line="94" column="4" selection-start-line="94" selection-start-column="4" selection-end-line="94" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fragment_mirage_siteb_short_cat_vid.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_mirage_siteb_short_cat_vid.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="94" column="4" selection-start-line="94" selection-start-column="4" selection-end-line="94" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fragment_mirage_sitea_con_jun_vid.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_mirage_sitea_con_jun_vid.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
               <caret line="94" column="4" selection-start-line="94" selection-start-column="4" selection-end-line="94" selection-end-column="4" />
             </state>
           </provider>
@@ -2524,7 +2504,6 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_mirage_siteb_bench_step2.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_mirage_siteb_under_balc_step2.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/bisch/csgo_smokes/mirage/mirage_sites/PagerAdapter_mirage.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/bisch/csgo_smokes/TODO.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_mirage_mid_cat.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_mirage_mid_connector_b_apps.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_mirage_mid_window_b_apps.xml" />
@@ -2539,10 +2518,7 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/bisch/csgo_smokes/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_mirage_mid.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_mirage_sitea.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_mirage_siteb.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_mirage.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/bisch/csgo_smokes/mirage/mirage.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/bisch/csgo_smokes/mirage/mirage_mid_window_t_spawn/mirage_mid_window_b_apps_vid.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/bisch/csgo_smokes/mirage/mirage_mid_window_b_apps/mirage_mid_window_b_apps.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/bisch/csgo_smokes/mirage/mirage_mid_window_t_spawn/mirage_mid_window_t_spawn.java" />
@@ -2556,7 +2532,6 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_mirage_mid_window_t_spawn_step2.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_mirage_mid_connector_b_apps_vid.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_mirage_mid_window_b_apps_vid.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_mirage_mid_window_t_spawn_vid.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_mirage_sitea_con_jun_vid.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_mirage_sitea_ct_vid.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_mirage_sitea_stairs_vid.xml" />
@@ -2564,7 +2539,12 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_mirage_siteb_market_window_vid.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_mirage_siteb_short_cat_vid.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_mirage_siteb_under_balc_vid.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/bisch/csgo_smokes/TODO.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_mirage_mid_cat_vid.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_mirage_siteb.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_mirage.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/bisch/csgo_smokes/mirage/mirage.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_mirage_mid_window_t_spawn_vid.xml" />
       </list>
     </option>
   </component>
@@ -2603,30 +2583,6 @@
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
               <item name="csgo_smokes" type="cbb59c9e:AndroidPsiDirectoryNode" />
               <item name="mirage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CSGO_Smokes" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="csgo_smokes" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="mirage" type="462c0819:PsiDirectoryNode" />
-              <item name="mirage_mid_cat" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CSGO_Smokes" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="csgo_smokes" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="mirage" type="462c0819:PsiDirectoryNode" />
-              <item name="mirage_mid_window_b_apps" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CSGO_Smokes" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="csgo_smokes" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="mirage" type="462c0819:PsiDirectoryNode" />
-              <item name="mirage_mid_window_t_spawn" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CSGO_Smokes" type="1abcf292:AndroidViewProjectNode" />
@@ -2930,7 +2886,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="Android Profiler" order="7" weight="0.3297414" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3297414" />
@@ -3024,13 +2979,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/bisch/csgo_smokes/TODO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -3166,16 +3114,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_mirage_siteb.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_mirage_sitea_ct_step1.xml">
       <provider selected="true" editor-type-id="android-designer2">
         <state />
@@ -3206,13 +3144,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-510">
           <caret line="29" column="52" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/bisch/csgo_smokes/mirage/mirage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="142" selection-start-line="142" selection-end-line="142" />
         </state>
       </provider>
     </entry>
@@ -3288,16 +3219,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_mirage_mid_window_t_spawn.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_mirage_mid_cat_step1.xml">
       <provider editor-type-id="android-designer2">
         <state />
@@ -3324,16 +3245,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_mirage_mid_window_t_spawn_vid.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="65" column="4" selection-start-line="65" selection-start-column="4" selection-end-line="65" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_mirage_sitea_con_jun_vid.xml">
       <provider editor-type-id="android-designer2">
         <state />
@@ -3351,16 +3262,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="283">
           <caret line="94" column="4" selection-start-line="94" selection-start-column="4" selection-end-line="94" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_mirage_sitea_stairs_vid.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="92" column="4" selection-start-line="92" selection-start-column="4" selection-end-line="92" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -3404,16 +3305,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_mirage.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="243" column="8" lean-forward="true" selection-start-line="243" selection-start-column="8" selection-end-line="243" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_mirage_mid_connector_b_apps_vid.xml">
       <provider editor-type-id="android-designer2">
         <state />
@@ -3424,13 +3315,83 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_mirage_sitea_stairs_vid.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="92" column="4" selection-start-line="92" selection-start-column="4" selection-end-line="92" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/bisch/csgo_smokes/TODO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_mirage_mid_cat_vid.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="105" column="32" lean-forward="true" selection-start-line="105" selection-start-column="32" selection-end-line="105" selection-end-column="32" />
+        <state relative-caret-position="351">
+          <caret line="44" column="39" selection-start-line="44" selection-start-column="39" selection-end-line="44" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_mirage_siteb.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="55" column="32" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_mirage.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="613">
+          <caret line="286" selection-start-line="286" selection-end-line="286" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/bisch/csgo_smokes/mirage/mirage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+          <folding>
+            <element signature="e#8122#8818#0" expanded="true" />
+            <element signature="e#8817#8818#0" expanded="true" />
+            <element signature="e#8862#9420#0" expanded="true" />
+            <element signature="e#9419#9420#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_mirage_mid_window_t_spawn.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_mirage_mid_window_t_spawn_vid.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="114" column="4" selection-start-line="114" selection-start-column="4" selection-end-line="114" selection-end-column="4" />
         </state>
       </provider>
     </entry>

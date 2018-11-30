@@ -46,6 +46,7 @@ public class mirage
 
         final SwitchCompat SW = (SwitchCompat) findViewById(R.id.switch1);
         final SwitchCompat SW2 = (SwitchCompat) findViewById(R.id.switch2);
+        final SwitchCompat SW3 = (SwitchCompat) findViewById(R.id.switch3);
         final ImageView IV = (ImageView) findViewById(R.id.overView);
         final ViewPager viewPager = (ViewPager) findViewById(R.id.pager);
         final TabLayout tabLayout = (TabLayout) findViewById(R.id.tablayout);
@@ -53,48 +54,6 @@ public class mirage
 
 
 
-        SW.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-            @Override
-            public void onCheckedChanged(CompoundButton compoundButton, boolean switchState) {
-                if(switchState){
-                    IV.setImageResource(R.drawable.mirage_ov2_1);
-                    Toast.makeText(mirage.this, "Positions are now shown", Toast.LENGTH_SHORT).show();
-                }else{
-                    IV.setImageResource(R.drawable.mirage_ov);
-                    Toast.makeText(mirage.this, "Positions are now hidden", Toast.LENGTH_SHORT).show();
-                }
-
-            }
-        });
-
-        SW2.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-            @Override
-            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
-                if (b) {
-                    viewPager.setVisibility(View.VISIBLE);
-                    //tabLayout.setVisibility(View.VISIBLE);
-                    Toast.makeText(mirage.this, "The helper-menu is now shown", Toast.LENGTH_SHORT).show();
-                } else {
-                    viewPager.setVisibility(View.GONE);
-                    //tabLayout.setVisibility(View.GONE);
-                    Toast.makeText(mirage.this, "The helper-menu is now hidden", Toast.LENGTH_SHORT).show();
-                }
-            }
-        });
-
-        ColorStateList trackStates = new ColorStateList(
-                new int[][]{
-                        new int[]{-android.R.attr.state_enabled},
-                        new int[]{}
-                },
-                new int[]{
-                        Color.YELLOW,
-                        Color.LTGRAY
-                }
-        );
-
-        SW.setTrackTintList(trackStates);
-        SW2.setTrackTintList(trackStates);
 
         tabLayout.addTab(tabLayout.newTab().setText("A"));
         tabLayout.addTab(tabLayout.newTab().setText("MID"));
@@ -132,6 +91,13 @@ public class mirage
                 startActivity(new Intent(mirage.this, mirage_mid_cat.class));
             }
         });
+        final Button window_tspawn = (Button) findViewById(R.id.btn_window);
+        window_tspawn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(mirage.this, mirage_mid_window_t_spawn.class));
+            }
+        });
 
         final Button window_b_apps = (Button) findViewById(R.id.btn_window_b_apps);
         window_b_apps.setOnClickListener(new View.OnClickListener() {
@@ -141,13 +107,6 @@ public class mirage
             }
         });
 
-        final Button window_tspawn = (Button) findViewById(R.id.btn_window);
-        window_tspawn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(mirage.this, mirage_mid_window_t_spawn.class));
-            }
-        });
 
         final Button connector_b_apps = (Button) findViewById(R.id.btn_connector);
         connector_b_apps.setOnClickListener(new View.OnClickListener() {
@@ -222,6 +181,66 @@ public class mirage
 
 
 */
+
+        SW.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean switchState) {
+                if(switchState){
+                    IV.setImageResource(R.drawable.mirage_ov2_1);
+                    Toast.makeText(mirage.this, "Positions are now shown", Toast.LENGTH_SHORT).show();
+                }else{
+                    IV.setImageResource(R.drawable.mirage_ov);
+                    Toast.makeText(mirage.this, "Positions are now hidden", Toast.LENGTH_SHORT).show();
+                }
+
+            }
+        });
+
+        SW2.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if (b) {
+                    viewPager.setVisibility(View.VISIBLE);
+                    //tabLayout.setVisibility(View.VISIBLE);
+                    Toast.makeText(mirage.this, "The helper-menu is now shown", Toast.LENGTH_SHORT).show();
+                } else {
+                    viewPager.setVisibility(View.GONE);
+                    //tabLayout.setVisibility(View.GONE);
+                    Toast.makeText(mirage.this, "The helper-menu is now hidden", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+
+
+        SW3.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if (b) {
+                    window_tspawn.setVisibility(View.GONE);
+                    short_cat.setVisibility(View.GONE);
+                    Toast.makeText(mirage.this, "Easy mode ON", Toast.LENGTH_SHORT).show();
+                } else {
+                    window_tspawn.setVisibility(View.VISIBLE);
+                    short_cat.setVisibility(View.VISIBLE);
+                    Toast.makeText(mirage.this, "Easy mode OFF", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+
+        ColorStateList trackStates = new ColorStateList(
+                new int[][]{
+                        new int[]{-android.R.attr.state_enabled},
+                        new int[]{}
+                },
+                new int[]{
+                        Color.YELLOW,
+                        Color.LTGRAY
+                }
+        );
+
+        SW.setTrackTintList(trackStates);
+        SW2.setTrackTintList(trackStates);
+        SW3.setTrackTintList(trackStates);
     }
 
     @Override

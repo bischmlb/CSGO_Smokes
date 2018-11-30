@@ -161,7 +161,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:background="@drawable/cloud91"
+        android:background="@drawable/cloud91_hard"
         android:fontFamily="@font/gooddp__"
         android:textSize="40sp"
         android:textStyle="bold|italic"
@@ -253,8 +253,8 @@
 
     <android.support.v7.widget.SwitchCompat
         android:id="@+id/switch1"
-        android:layout_width="155dp"
-        android:layout_height="0dp"
+        android:layout_width="165dp"
+        android:layout_height="30dp"
         android:background="@drawable/roundbutton"
         android:checked="false"
         android:fontFamily="@font/gooddp__"
@@ -270,8 +270,8 @@
 
     <android.support.v7.widget.SwitchCompat
         android:id="@+id/switch2"
-        android:layout_width="155dp"
-        android:layout_height="0dp"
+        android:layout_width="165dp"
+        android:layout_height="30dp"
         android:background="@drawable/roundbutton"
         android:checked="false"
         android:fontFamily="@font/gooddp__"
@@ -287,13 +287,13 @@
 
     <android.support.v7.widget.SwitchCompat
         android:id="@+id/switch3"
-        android:layout_width="155dp"
-        android:layout_height="0dp"
+        android:layout_width="165dp"
+        android:layout_height="30dp"
         android:layout_marginTop="8dp"
         android:background="@drawable/roundbutton"
-        android:checked="true"
+        android:checked="false"
         android:fontFamily="@font/gooddp__"
-        android:text="Hard Smokes "
+        android:text="Easy mode "
         android:textOff="Off"
         android:textOn="On"
         android:textSize="20dp"
