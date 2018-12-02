@@ -73,7 +73,7 @@
         android:alpha="0.6"
         android:visibility="gone"
         android:textAppearance="@android:style/TextAppearance.Holo.Widget.ActionBar.Menu"
-        android:textSize="40sp"
+        android:textSize="40dp"
         android:textStyle="italic|bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"

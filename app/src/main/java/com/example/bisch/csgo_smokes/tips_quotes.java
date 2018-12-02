@@ -13,7 +13,7 @@ public class tips_quotes {
             "'HVEM eR haaan??'",
             "'Do you say a ananas or an ananas?'",
             "''The Snake' was founded as a pistol round strat by famous player Babisco from Team Snavs in November 2018.'",
-            "' Hans" + " Tommy Knepper Bare " + "is one of the first players to ever achieve only 1 kill on a game of 30 rounds."
+            "' Hans" + " Tommy Knepper Bare " + "is one of the first players to ever achieve only 1 kill on a game of 30 rounds.",
 
     };
 

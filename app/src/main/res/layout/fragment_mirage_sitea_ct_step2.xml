@@ -31,7 +31,7 @@
         android:background="@drawable/roundframe6"
         android:text="Place your crosshair above and to the left of the small roof. Keep in mind that this is a jump throw."
         android:textColor="#ffffff"
-        android:textSize="32sp"
+        android:textSize="32dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.527"
@@ -50,7 +50,7 @@
         android:text="You're ready to throw "
 
         android:textColor="#ffff00"
-        android:textSize="40sp"
+        android:textSize="40dp"
         android:textStyle="bold|italic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

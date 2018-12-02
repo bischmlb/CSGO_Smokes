@@ -32,7 +32,7 @@
         android:fontFamily="@font/gooddp__"
         android:text="Use the most-left black object for the angle, and the second black opject under the roof to the right, for height measurement. "
         android:textColor="#ffffff"
-        android:textSize="32sp"
+        android:textSize="32dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.527"
