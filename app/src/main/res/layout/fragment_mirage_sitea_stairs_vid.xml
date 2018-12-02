@@ -23,6 +23,7 @@
         android:layout_width="122dp"
         android:layout_height="91dp"
         android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
         android:layout_marginEnd="8dp"
         android:background="@drawable/arrow_black"
         android:fontFamily="@font/gooddp__"
@@ -31,7 +32,7 @@
         android:textSize="20dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.97"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/videoView" />
 
