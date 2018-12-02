@@ -38,7 +38,6 @@
 
     TODO: Fix nade-helper-menu
     TODO: Enhance nade-helper layout
-    TODO: Easy smoke cloud, hard smoke cloud - image.
     TODO: Better color for tipframes on activities
 
     */

@@ -68,7 +68,7 @@ public class mirage_siteb_under_balc_step1 extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_mirage_siteb_under_balc_step1, container, false);
-
+/*
         final Button btn_step2 = (Button) view.findViewById(R.id.btn_step2);
 
         btn_step2.setOnClickListener(new View.OnClickListener() {
@@ -81,6 +81,7 @@ public class mirage_siteb_under_balc_step1 extends Fragment {
                         .commit();
             }
         });
+        */
         return view;
     }
 

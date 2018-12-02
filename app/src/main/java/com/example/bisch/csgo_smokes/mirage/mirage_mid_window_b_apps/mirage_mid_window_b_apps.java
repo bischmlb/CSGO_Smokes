@@ -24,10 +24,10 @@ public class mirage_mid_window_b_apps
 
 
         TabLayout tabLayout2 = (TabLayout) findViewById(R.id.tablayout);
-        tabLayout2.addTab(tabLayout2.newTab().setText("Overview "));
-        tabLayout2.addTab(tabLayout2.newTab().setText("Step 1 "));
-        tabLayout2.addTab(tabLayout2.newTab().setText("Step 2 "));
-        tabLayout2.setTabGravity(TabLayout.GRAVITY_FILL);
+            tabLayout2.addTab(tabLayout2.newTab().setText("Quick    \nGuide    "));
+            tabLayout2.addTab(tabLayout2.newTab().setText("In-depth:\nPosition "));
+            tabLayout2.addTab(tabLayout2.newTab().setText("In-depth:\nCrosshair"));
+            tabLayout2.setTabGravity(TabLayout.GRAVITY_FILL);
 
         final ViewPager viewPager2 = (ViewPager) findViewById(R.id.pager);
         final mirage_mid_window_b_apps_pagerAdapter adapter = new mirage_mid_window_b_apps_pagerAdapter(getSupportFragmentManager(), tabLayout2.getTabCount());

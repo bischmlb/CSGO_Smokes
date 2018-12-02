@@ -18,14 +18,13 @@
     <style name="MyCustomTabLayout" parent="Widget.Design.TabLayout">
         <item name="android:divider">@drawable/smokegrenade</item>
         <item name="android:showDividers">middle</item>
-        <item name="tabMaxWidth">150dp</item>
+        <item name="tabMaxWidth">100dp</item>
         <item name="tabIndicatorColor">#ffffff</item>
         <item name="tabIndicatorHeight">0dp</item>
         <item name="tabPaddingStart">12dp</item>
         <item name="tabPaddingEnd">12dp</item>
         <item name="android:elevation">25dp</item>
         <item name="tabTextAppearance">@style/MyCustomTabTextAppearance</item>
-        <item name="tabSelectedTextColor">#ffff00</item>
     </style>
 
     <style name="MyCustomTabTextAppearance" parent="TextAppearance.Design.Tab">

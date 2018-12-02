@@ -68,18 +68,6 @@ public class mirage_mid_window_b_apps_step1 extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_mirage_mid_window_b_apps_step1, container, false);
 
-        final Button btn_step2 = (Button) view.findViewById(R.id.btn_step2);
-
-        btn_step2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                mirage_mid_window_b_apps_step2 step2= new mirage_mid_window_b_apps_step2();
-                getActivity().getSupportFragmentManager().beginTransaction()
-                        .replace(R.id.fragmentContainer, step2,"findThisFragment")
-                        .addToBackStack(null)
-                        .commit();
-            }
-        });
         return view;
     }
 
