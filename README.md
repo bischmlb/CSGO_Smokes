@@ -20,8 +20,8 @@ Make sure your 'screenzoom' is set to 'small' (Settings > Screen > Fonttype and 
 # Preview
 
 ![Front](Screenshot_1543840164.png)
-![Overview](Screenshot_1543841469.png)
-![QuickQuide](Screenshot_1543840234.png)
+![Overview](Screenshot_1543840176.png)
+![QuickQuide](Screenshot_1543841469.png)
 ![Position](Screenshot_1543840250.png)
 ![x-hair](Screenshot_1543840255.png)
 
