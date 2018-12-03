@@ -13,5 +13,6 @@ The APK-install can be downloaded here:
 
 # Issues
 The app has issues dealing with native changes to screen size. For optimal execution it should be run with no "screen zoom" of any kind. 
+Samsung Galaxy S(X): Make sure your 'screenzoom' is set to 'small' (Settings > Screen > Fonttype and screenzoom > screenzoom = small) for optimal display. Buttons and text can bug out and go out of bounds if this is not set.
 
 
