@@ -1,3 +1,7 @@
+# Download
+Android:  
+[[Alpha v. 0.9a]]( https://github.com/bischmlb/CSGO_Smokes/releases/download/0.9a/app-release.apk)
+___________________________________________________________________________________________________________________________________
 
 # About
 A smoke guide for the map de_mirage, in the game Counter-Strike: Global Offensive
@@ -9,10 +13,6 @@ If you experience any bugs, please dont hesitate contacting me by mail:
 or  
 [**add me on steam**](https://steamcommunity.com/profiles/76561197984821742/)  
 **discord: bisch#7742**
-
-# Download
-Android:  
-[[Alpha v. 0.9a]]( https://github.com/bischmlb/CSGO_Smokes/releases/download/0.9a/app-release.apk)
 
 # Issues
 The app has issues dealing with native changes to screen size. For optimal execution it should be run with no "screen zoom" of any kind.  
