@@ -1,5 +1,5 @@
 
-![Logo](https://github.com/bischmlb/CSGO_Smokes/blob/master/app/src/main/res/drawable/cloud91.png)
+![Logo](/app/src/main/res/drawable/cloud91.png)
 
 
 # SmokeGod: Mirage (title temporary)
