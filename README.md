@@ -17,4 +17,13 @@ The app has issues dealing with native changes to screen size. For optimal execu
 **Samsung Galaxy S(X):**  
 Make sure your 'screenzoom' is set to 'small' (Settings > Screen > Fonttype and screenzoom > screenzoom = small) for optimal display. Buttons and text can bug out and go out of bounds if this is not set.
 
+# Preview
+
+![Front](Screenshot_1543840164.png)
+![Overview](Screenshot_1543840176.png)
+![QuickQuide](Screenshot_1543840234.png)
+![Position](Screenshot_1543840250.png)
+![x-hair](Screenshot_1543840255.png)
+
+
 
