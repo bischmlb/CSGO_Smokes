@@ -1,6 +1,6 @@
 # Download
 Android:  
-[[Alpha v. 0.9a]]( https://github.com/bischmlb/CSGO_Smokes/releases/download/0.9a/app-release.apk)
+[[Alpha v. 0.9a]]( https://github.com/bischmlb/CSGO_Smokes/releases/download/0.9a/app-release.apk)  
 ___________________________________________________________________________________________________________________________________
 
 # About
