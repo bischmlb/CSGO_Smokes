@@ -1,7 +1,4 @@
 
-![Logo](/app/src/main/res/drawable/cloud91.png)
-
-
 # About
 A smoke guide for the map de_mirage, in the game Counter-Strike: Global Offensive
 
