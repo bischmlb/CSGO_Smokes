@@ -9,7 +9,7 @@ The project is  a side project im doing for fun - still criticism is greatly app
 
 # Download
 The APK-install can be downloaded here:
-[[Alpha version 0.9a]]( https://github.com/bischmlb/CSGO_Smokes/releases/download/0.9a/app-release.apk)
+[[Alpha v. 0.9a]]( https://github.com/bischmlb/CSGO_Smokes/releases/download/0.9a/app-release.apk)
 
 # Issues
 The app has issues dealing with native changes to screen size. For optimal execution it should be run with no "screen zoom" of any kind. 
