@@ -11,6 +11,7 @@ If you experience any bugs, please dont hesitate contacting me by mail:
 **mathiasbischo@gmail.com**  
 or  
 [**add me on steam**](https://steamcommunity.com/profiles/76561197984821742/)
+**discord: bisch#7742**
 
 # Download
 Android:  
