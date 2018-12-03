@@ -1,3 +1,7 @@
+
+![Logo](https://github.com/bischmlb/CSGO_Smokes/blob/master/app/src/main/res/drawable/cloud91.png)
+
+
 # SmokeGod: Mirage
 A smoke guide for the map de_mirage, in the game Counter-Strike: Global Offense
 
@@ -8,7 +12,5 @@ The APK-install can be downloaded at: https://github.com/bischmlb/CSGO_Smokes/re
 
 # Issues
 The app has issues dealing with native changes to screen size. For optimal execution it should be run with no "screen zoom" of any kind. 
-
-![Logo](http://francky.me/images/quora001.png)
 
 
