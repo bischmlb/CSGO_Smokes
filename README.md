@@ -1,7 +1,7 @@
 # Download
 Android:  
-[[V. 0.9b]](https://github.com/bischmlb/Smokes-de_mirage/releases/download/0.9b/app-release-unsigned.apk)
-[[V. 0.9a]](https://github.com/bischmlb/CSGO_Smokes/releases/download/0.9a/app-release.apk)  
+[[v. 0.9b]](https://github.com/bischmlb/Smokes-de_mirage/releases/download/0.9b/app-release-unsigned.apk)   
+[[v. 0.9a]](https://github.com/bischmlb/CSGO_Smokes/releases/download/0.9a/app-release.apk)  
 ___________________________________________________________________________________________________________________________________
 
 # About
@@ -9,7 +9,7 @@ A smoke guide for the map de_mirage, in the game Counter-Strike: Global Offensiv
 
 The project is  a side project im doing for fun - still criticism is greatly appreciated. I am rather new to APK programming in android studio.  
 
-Contact info: 
+Contact info:   
 **mathiasbischo@gmail.com**  
 or  
 [**add me on steam**](https://steamcommunity.com/profiles/76561197984821742/)  
