@@ -83,6 +83,7 @@
         android:fontFamily="@font/gooddp__"
         android:text="Move to video example         "
         android:textColor="#ffff00"
+        android:visibility="gone"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

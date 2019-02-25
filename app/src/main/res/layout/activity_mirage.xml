@@ -190,6 +190,21 @@
         app:layout_constraintTop_toTopOf="@+id/overView"
         app:layout_constraintVertical_bias="0.244" />
 
+    <Button
+        android:id="@+id/btn_top_mid"
+        android:layout_width="51dp"
+        android:layout_height="35dp"
+        android:background="@drawable/cloud91_hard"
+        android:fontFamily="@font/gooddp__"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="@+id/overView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.761"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/overView"
+        app:layout_constraintVertical_bias="0.326" />
+
+
 
     <android.support.design.widget.TabLayout
         android:id="@+id/tablayout"
@@ -258,11 +273,9 @@
         android:id="@+id/switch3"
         android:layout_width="165dp"
         android:layout_height="30dp"
-        android:layout_marginEnd="8dp"
-        android:background="@drawable/roundframe3"
+        android:background="@drawable/roundbutton"
         android:checked="false"
         android:fontFamily="@font/gooddp__"
-        android:visibility="gone"
         android:text="Easy mode "
         android:textOff="Off"
         android:textOn="On"

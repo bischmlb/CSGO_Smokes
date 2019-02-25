@@ -82,6 +82,7 @@
         android:background="@drawable/arrow_black"
         android:fontFamily="@font/gooddp__"
         android:text="Move to video example         "
+        android:visibility="gone"
         android:textColor="#ffff00"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"

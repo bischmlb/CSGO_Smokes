@@ -16,7 +16,7 @@
      */
 
 
-    /*TODO Mirage:
+    /*(DONE) Mirage:
     (DONE): Make videos for all featured smokes -
         (DONE) MID
         (DONE) A
@@ -29,12 +29,14 @@
     (DONE): (Find new smokes icon for map overlook (maybe) )
     (DONE): con_jun activity
     (DONE): A-site activities
-    (DONE): Finish mid smokes TODO (T-spawn smoke window ? )
+    (DONE): Finish mid smokes
+    (DONE): T-spawn smoke window ?
     (DONE): B-site smokes
     (DONE): Change hide positions slider to show positions
     (DONE): Finish mirage as a base before starting on new maps
     (DONE): Implement switch that makes it possible to hide hard smokes.
     (DONE): Tip of the day?
+    TODO: Smoke additions
 
     TODO: Fix nade-helper-menu
     TODO: Enhance nade-helper layout
