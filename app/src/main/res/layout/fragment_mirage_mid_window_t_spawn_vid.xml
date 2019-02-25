@@ -93,7 +93,7 @@
     <TextView
         android:id="@+id/textView14"
         android:layout_width="115dp"
-        android:layout_height="16dp"
+        android:layout_height="12dp"
         android:alpha="0.8"
         android:background="#bf000000"
         android:fontFamily="@font/gooddp__"

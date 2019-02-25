@@ -14,6 +14,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.CompoundButton;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.bisch.csgo_smokes.R;
@@ -32,6 +33,7 @@ import com.example.bisch.csgo_smokes.mirage.mirage_sites.PagerAdapter_mirage;
 import com.example.bisch.csgo_smokes.mirage.mirage_sites.mirage_mid;
 import com.example.bisch.csgo_smokes.mirage.mirage_sites.mirage_siteA;
 import com.example.bisch.csgo_smokes.mirage.mirage_sites.mirage_siteB;
+import com.example.bisch.csgo_smokes.tips_quotes;
 
 public class mirage
         extends AppCompatActivity
@@ -51,6 +53,12 @@ public class mirage
         final ImageView IV = (ImageView) findViewById(R.id.overView);
         final ViewPager viewPager = (ViewPager) findViewById(R.id.pager);
         final TabLayout tabLayout = (TabLayout) findViewById(R.id.tablayout);
+
+        tips_quotes tips = new tips_quotes();
+
+        final TextView tipsText = (TextView) findViewById(R.id.textView25);
+
+        tipsText.setText(tips.getTip(tips.tipsS));
 
 
 

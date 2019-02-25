@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class tips_quotes {
 
-    String[] tipsS = {
+    public String[] tipsS = {
 
             "In 2016 the leader of Team Snavs and famous player, 'bisch', was considered one of the best in-game leaders in the history of danish Counter-Strike",
             "'Lalagirl is probably one of the best P90 players that is known to mankind'",
@@ -13,7 +13,7 @@ public class tips_quotes {
             "'HVEM eR haaan??'",
             "'Do you say a ananas or an ananas?'",
             "''The Snake' was founded as a pistol round strat by famous player Babisco from Team Snavs in November 2018.'",
-            "' Hans" + " Tommy Knepper Bare " + "is one of the first players to ever achieve only 1 kill on a game of 30 rounds.",
+            "' Hans" + " 'Tommy Knepper Bare' " + "is one of the first players to ever achieve only 1 kill on a game of 30 rounds.",
 
     };
 
