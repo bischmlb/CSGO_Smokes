@@ -281,6 +281,7 @@
         android:textOff="Off"
         android:textOn="On"
         android:textSize="20dp"
+        android:visibility="gone"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/switch1"
         app:layout_constraintEnd_toEndOf="parent"
@@ -289,8 +290,9 @@
 
     <TextView
         android:id="@+id/textView25"
-        android:layout_width="367dp"
-        android:layout_height="91dp"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginTop="-1dp"
         android:background="@drawable/roundbutton"
         android:fontFamily="@font/gooddp__"
         android:gravity="center"
@@ -300,9 +302,10 @@
         android:textColor="#ffffff"
         android:textSize="22dp"
         android:textStyle="italic|bold"
-        android:visibility="gone"
-        tools:layout_editor_absoluteX="411dp"
-        tools:layout_editor_absoluteY="540dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/overView" />
 
     <ImageView
         android:id="@+id/imageView"

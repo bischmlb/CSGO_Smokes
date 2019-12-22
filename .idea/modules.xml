@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CSGO_Smokes.iml" filepath="$PROJECT_DIR$/CSGO_Smokes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Smokes-de_mirage.iml" filepath="$PROJECT_DIR$/Smokes-de_mirage.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
