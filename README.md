@@ -1,7 +1,10 @@
 # Download  
-Android:  
+**Android:**  
+___________________________________________________________________________________________________________________________________
+Current:  
 **[- v. 1.0.0](https://github.com/bischmlb/Smokes-de_mirage/releases/download/v1.0/smokes_mirage.apk)**  
 ___________________________________________________________________________________________________________________________________  
+Previous:  
 [- v. 0.9.2](https://github.com/bischmlb/Smokes-de_mirage/releases/download/0.9b/smokes_mirage_0.9beta.apk)    
 [- v. 0.9.1](https://github.com/bischmlb/CSGO_Smokes/releases/download/0.9a/app-release.apk)  
 ___________________________________________________________________________________________________________________________________  
