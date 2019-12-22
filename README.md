@@ -2,7 +2,7 @@
 **Android:**  
 ___________________________________________________________________________________________________________________________________  
 (Current)  
-**[- v. 1.0.0](https://github.com/bischmlb/Smokes-de_mirage/releases/download/v1.0/smokes_mirage.apk)  
+[- v. 1.0.0](https://github.com/bischmlb/Smokes-de_mirage/releases/download/v1.0/smokes_mirage.apk)  
 ___________________________________________________________________________________________________________________________________  
 (Previous)  
 [- v. 0.9.2](https://github.com/bischmlb/Smokes-de_mirage/releases/download/0.9b/smokes_mirage_0.9beta.apk)    
